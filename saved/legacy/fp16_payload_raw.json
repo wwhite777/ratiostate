@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "actualFormat": "Uint16Array IEEE binary16",
+      "backingBuffers": 2,
+      "cacheElements": 67584,
+      "image": 0,
+      "physicalRetainedPayloadBytesBatch1": 135168
+    },
+    {
+      "actualFormat": "Uint16Array IEEE binary16",
+      "backingBuffers": 2,
+      "cacheElements": 67584,
+      "image": 1,
+      "physicalRetainedPayloadBytesBatch1": 135168
+    },
+    {
+      "actualFormat": "Uint16Array IEEE binary16",
+      "backingBuffers": 2,
+      "cacheElements": 67584,
+      "image": 2,
+      "physicalRetainedPayloadBytesBatch1": 135168
+    },
+    {
+      "actualFormat": "Uint16Array IEEE binary16",
+      "backingBuffers": 2,
+      "cacheElements": 67584,
+      "image": 3,
+      "physicalRetainedPayloadBytesBatch1": 135168
+    }
+  ]
+}

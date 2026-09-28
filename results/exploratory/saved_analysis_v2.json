@@ -1,0 +1,371 @@
+{
+  "absolute_fp32_deviation_bpp": {
+    "A00": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 32,
+      "negative": 0,
+      "positive": 0,
+      "sample_sd": 0.0,
+      "zero": 32
+    },
+    "A01": {
+      "max": 0.01807704884955652,
+      "mean": 0.003994499236329368,
+      "median": 0.0031769801225827177,
+      "min": 0.00010714539429884651,
+      "n": 32,
+      "negative": 0,
+      "positive": 32,
+      "sample_sd": 0.003847911707390062,
+      "zero": 0
+    },
+    "A10": {
+      "max": 0.020874117041709217,
+      "mean": 0.005986572872567331,
+      "median": 0.00442992904037684,
+      "min": 0.0006026595318239236,
+      "n": 32,
+      "negative": 0,
+      "positive": 32,
+      "sample_sd": 0.004919466583332918,
+      "zero": 0
+    },
+    "A11": {
+      "max": 0.03151160938104952,
+      "mean": 0.007484145699085846,
+      "median": 0.004940224096560086,
+      "min": 0.00022927155533403187,
+      "n": 32,
+      "negative": 0,
+      "positive": 32,
+      "sample_sd": 0.007479066062385178,
+      "zero": 0
+    },
+    "bf16_pair_boundary": {
+      "max": 1.8996192742315454e-05,
+      "mean": 3.813194744747752e-06,
+      "median": 3.109950791696514e-06,
+      "min": 3.010130100733477e-07,
+      "n": 32,
+      "negative": 0,
+      "positive": 32,
+      "sample_sd": 3.6319303246436415e-06,
+      "zero": 0
+    },
+    "fp16_boundary": {
+      "max": 0.0024086275567781756,
+      "mean": 0.0009322047420144723,
+      "median": 0.0007469479528995349,
+      "min": 2.0754984184301328e-05,
+      "n": 32,
+      "negative": 0,
+      "positive": 32,
+      "sample_sd": 0.0007005931463017045,
+      "zero": 0
+    }
+  },
+  "arms": [
+    "A00",
+    "A10",
+    "A01",
+    "A11",
+    "fp16_boundary",
+    "bf16_pair_boundary"
+  ],
+  "elapsed_seconds": 1.4679903243668377,
+  "files_sha256": {
+    "image_position_v2.csv": "9bd913ba7a1b86063edbbd273d4e8c157ab649f6375e213d27d56d08df90be25",
+    "image_preservation_v2.csv": "50e8bff003ee1978a3d2315e925676af5f98ed8c2c70aaeeea1a30789d4ed93a",
+    "position_summary_v2.csv": "666514c6d3af78cfcde00fab70052ae46270881108b966aa9c2f7b123dad45c0",
+    "position_window_summary_v2.csv": "2345cea0b17471404fa7448f19994b377b4f574dd80ca0eb7adc8ffe2ab7bccd",
+    "state_image_rates_v2.json": "68b9fd958035d85c0e4815a3919004948589fbc8fffe25b2deb3fa19e734a1f8",
+    "state_window_summary_v2.csv": "7d35ae15fc49a15f20394ad519badd491ffeeaea043cc1329bac2e89cf78dabc",
+    "state_windows_v2.csv": "34d02e041932a9ce0ec349c63f141a01b5bfd9f69dba97e90271ac1d7282e273",
+    "token_bits_v2.npz": "3bf000c2e0a29210f934d1f6ef935d17f7cdfc281624113cf929eebde0775dcf"
+  },
+  "graph_additive_epsilon": {
+    "count": 8,
+    "float32_little_endian_hex": "bd378635",
+    "float32_value": 9.999999974752427e-07,
+    "weight_name_pattern": "transformer_rnn/block*/attention*/self_attention*/add/y"
+  },
+  "label_counts": {
+    "0": 3,
+    "1": 6,
+    "2": 4,
+    "3": 3,
+    "4": 4,
+    "5": 0,
+    "6": 6,
+    "7": 4,
+    "8": 1,
+    "9": 1
+  },
+  "mixed_to_fp16_mean_absolute_deviation_ratio": 6.421950675374692,
+  "n_images": 32,
+  "n_score_cells": 192,
+  "nominal_payload_kib": {
+    "A00": 264,
+    "A01": 260,
+    "A10": 136,
+    "A11": 132,
+    "bf16_pair_boundary": 264,
+    "fp16_boundary": 132
+  },
+  "position_embedding": {
+    "literal_2x_4x_concatenation_supported_without_graph_change": false,
+    "max_saved_position": 782,
+    "shape": [
+      783,
+      128
+    ],
+    "weight": "unknown_0"
+  },
+  "primary_joint_minus_matrix_only": {
+    "max": 0.022600736251189302,
+    "mean": 0.005551462491667288,
+    "median": 0.004734261142384982,
+    "min": -0.0014229102505436408,
+    "n": 32,
+    "negative": 9,
+    "positive": 23,
+    "sample_sd": 0.0063330012673534055,
+    "zero": 0
+  },
+  "primary_leave_one_out_max": 0.00577644225754506,
+  "primary_leave_one_out_mean": {
+    "max": 0.00577644225754506,
+    "mean": 0.005551462491667288,
+    "median": 0.005577823825515104,
+    "min": 0.00500148591877948,
+    "n": 32,
+    "negative": 0,
+    "positive": 32,
+    "sample_sd": 0.0002042903634630131,
+    "zero": 0
+  },
+  "primary_leave_one_out_min": 0.00500148591877948,
+  "score_reconstruction": {
+    "max_absolute_frozen_score_error": 4.440892098500626e-16,
+    "max_absolute_saved_recomputed_token_logp_error": 0.0
+  },
+  "signed_fp32_change_bpp": {
+    "A00": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 32,
+      "negative": 0,
+      "positive": 0,
+      "sample_sd": 0.0,
+      "zero": 32
+    },
+    "A01": {
+      "max": 0.01807704884955652,
+      "mean": 0.002691686376344739,
+      "median": 0.0017364736466850134,
+      "min": -0.005349410065521254,
+      "n": 32,
+      "negative": 13,
+      "positive": 19,
+      "sample_sd": 0.004878346874141755,
+      "zero": 0
+    },
+    "A10": {
+      "max": 0.020874117041709217,
+      "mean": 0.00044574937612619926,
+      "median": 0.0008797587154329434,
+      "min": -0.01585889380119121,
+      "n": 32,
+      "negative": 15,
+      "positive": 17,
+      "sample_sd": 0.007809686473968238,
+      "zero": 0
+    },
+    "A11": {
+      "max": 0.03151160938104952,
+      "mean": 0.005997211867793487,
+      "median": 0.003916193029091464,
+      "min": -0.008862889452502909,
+      "n": 32,
+      "negative": 6,
+      "positive": 26,
+      "sample_sd": 0.008753796737905146,
+      "zero": 0
+    },
+    "bf16_pair_boundary": {
+      "max": 6.30800453904623e-06,
+      "mean": -1.085411103301636e-06,
+      "median": -6.19385507799608e-07,
+      "min": -1.8996192742315454e-05,
+      "n": 32,
+      "negative": 17,
+      "positive": 15,
+      "sample_sd": 5.194641268366459e-06,
+      "zero": 0
+    },
+    "fp16_boundary": {
+      "max": 0.0021071637889453765,
+      "mean": -0.00016370521799275502,
+      "median": -0.0003239222932916175,
+      "min": -0.0024086275567781756,
+      "n": 32,
+      "negative": 19,
+      "positive": 13,
+      "sample_sd": 0.0011662782617721653,
+      "zero": 0
+    }
+  },
+  "source_sha256": {
+    "analysis_v3.json": "d4aa279adf75b11401d08d0b73616a9defc6c8b7402f583f5303af4a54475324",
+    "lock_v1.json": "9feb87e4063ce80c6374146e0ec2bb252656b6759f44fdf7d4be01078d64d380",
+    "model.json": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e",
+    "score_browser_precision.py": "c6d6543792190cdee25fb33ef570e9185d7fd5d8735561fc905c7b1c9e0a6cdc"
+  },
+  "state_interpretation": "At token 0 previous encoded feed is exactly zero. At token t>0 native graph output is compared with encoded feed from t-1; absorption requires strictly positive raw-minus-prior and current encoded feed exactly equal to prior. Rows cover only layers 0 and 7, head 0; per-image rates use 32 images as units. Query/readout and denominator distortions are unavailable from these selected-state traces.",
+  "state_selected_layers_head0": {
+    "A00": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "n": 32,
+        "negative": 0,
+        "positive": 0,
+        "sample_sd": 0.0,
+        "zero": 32
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 0,
+      "positive_raw_increment": 1599374,
+      "positive_round_down": 0,
+      "positive_round_up": 0,
+      "zero_raw_increment": 4210
+    },
+    "A01": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.6816803033326682,
+        "mean": 0.6467128422316133,
+        "median": 0.6458996778516395,
+        "min": 0.6235644832139571,
+        "n": 32,
+        "negative": 0,
+        "positive": 32,
+        "sample_sd": 0.015764261851026633,
+        "zero": 0
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 1034518,
+      "positive_raw_increment": 1599629,
+      "positive_round_down": 1252710,
+      "positive_round_up": 346118,
+      "zero_raw_increment": 3955
+    },
+    "A10": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "n": 32,
+        "negative": 0,
+        "positive": 0,
+        "sample_sd": 0.0,
+        "zero": 32
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 0,
+      "positive_raw_increment": 1599551,
+      "positive_round_down": 0,
+      "positive_round_up": 0,
+      "zero_raw_increment": 4033
+    },
+    "A11": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.6804629814408302,
+        "mean": 0.6463660479388933,
+        "median": 0.6456615265096908,
+        "min": 0.6236997919667147,
+        "n": 32,
+        "negative": 0,
+        "positive": 32,
+        "sample_sd": 0.015387194875827926,
+        "zero": 0
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 1034050,
+      "positive_raw_increment": 1599765,
+      "positive_round_down": 1252272,
+      "positive_round_up": 346691,
+      "zero_raw_increment": 3819
+    },
+    "bf16_pair_boundary": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.0479826829414948,
+        "mean": 0.03393187711141893,
+        "median": 0.033079633900284164,
+        "min": 0.018459389343444422,
+        "n": 32,
+        "negative": 0,
+        "positive": 32,
+        "sample_sd": 0.007280335559834854,
+        "zero": 0
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 54263,
+      "positive_raw_increment": 1599371,
+      "positive_round_down": 753190,
+      "positive_round_up": 719004,
+      "zero_raw_increment": 4213
+    },
+    "fp16_boundary": {
+      "elements": 1603584,
+      "image_absorbed_rate_summary": {
+        "max": 0.3772710011392481,
+        "mean": 0.35039947178299646,
+        "median": 0.3509829657770006,
+        "min": 0.3320055247512861,
+        "n": 32,
+        "negative": 0,
+        "positive": 32,
+        "sample_sd": 0.00985116716127516,
+        "zero": 0
+      },
+      "negative_absorbed": 0,
+      "negative_raw_increment": 0,
+      "negative_round_down": 0,
+      "negative_round_up": 0,
+      "positive_absorbed": 560435,
+      "positive_raw_increment": 1599422,
+      "positive_round_down": 1030908,
+      "positive_round_up": 564670,
+      "zero_raw_increment": 4162
+    }
+  },
+  "status": "retrospective_saved_data_analysis"
+}

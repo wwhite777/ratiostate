@@ -1,0 +1,60 @@
+{
+  "arrays": {
+    "k": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "k.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "q": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "q.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "v": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "v.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    }
+  },
+  "input": {
+    "startIndex": 0,
+    "steps": 783
+  },
+  "operator": {
+    "epsilonByLayer": [
+      9.999999974752427e-07,
+      9.999999974752427e-07
+    ],
+    "updateOrder": "inclusive: kc'=kc+k and kv'=kv+k outer v before readout"
+  },
+  "selection": {
+    "heads": [
+      0
+    ],
+    "layers": [
+      0,
+      7
+    ]
+  }
+}

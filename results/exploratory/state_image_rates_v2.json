@@ -1,0 +1,1358 @@
+{
+  "A00": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49978
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49898
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49903
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50008
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49954
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50057
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50108
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50033
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49943
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49928
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50012
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50010
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50023
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50001
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50004
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49886
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50110
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49893
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50035
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50061
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49936
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49941
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49998
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49948
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49955
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49929
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49972
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50044
+    }
+  ],
+  "A01": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 31167,
+      "positive_absorbed_rate": 0.6235644832139571,
+      "positive_raw_increment": 49982
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 31854,
+      "positive_absorbed_rate": 0.6369398732278899,
+      "positive_raw_increment": 50011
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 32320,
+      "positive_absorbed_rate": 0.647604544452682,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 32279,
+      "positive_absorbed_rate": 0.6460710139706177,
+      "positive_raw_increment": 49962
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 31609,
+      "positive_absorbed_rate": 0.633332665451121,
+      "positive_raw_increment": 49909
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 33262,
+      "positive_absorbed_rate": 0.664934130300062,
+      "positive_raw_increment": 50023
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 32297,
+      "positive_absorbed_rate": 0.6460821380703755,
+      "positive_raw_increment": 49989
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 34009,
+      "positive_absorbed_rate": 0.6793376213495266,
+      "positive_raw_increment": 50062
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 33634,
+      "positive_absorbed_rate": 0.6712167474904708,
+      "positive_raw_increment": 50109
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 33944,
+      "positive_absorbed_rate": 0.6784322347250814,
+      "positive_raw_increment": 50033
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 31758,
+      "positive_absorbed_rate": 0.6360504706589225,
+      "positive_raw_increment": 49930
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 31588,
+      "positive_absorbed_rate": 0.6326710463066816,
+      "positive_raw_increment": 49928
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 33264,
+      "positive_absorbed_rate": 0.6649874055415617,
+      "positive_raw_increment": 50022
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 32861,
+      "positive_absorbed_rate": 0.6572988758651038,
+      "positive_raw_increment": 49994
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 32163,
+      "positive_absorbed_rate": 0.642489013184179,
+      "positive_raw_increment": 50060
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 32521,
+      "positive_absorbed_rate": 0.6504069918601628,
+      "positive_raw_increment": 50001
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 32182,
+      "positive_absorbed_rate": 0.6434083729857252,
+      "positive_raw_increment": 50018
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 31632,
+      "positive_absorbed_rate": 0.6340730049912803,
+      "positive_raw_increment": 49887
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 34159,
+      "positive_absorbed_rate": 0.6816803033326682,
+      "positive_raw_increment": 50110
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 32416,
+      "positive_absorbed_rate": 0.6497885220598553,
+      "positive_raw_increment": 49887
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 32106,
+      "positive_absorbed_rate": 0.6413375681668365,
+      "positive_raw_increment": 50061
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 31883,
+      "positive_absorbed_rate": 0.6388610587905262,
+      "positive_raw_increment": 49906
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 31684,
+      "positive_absorbed_rate": 0.6327561759830648,
+      "positive_raw_increment": 50073
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 31352,
+      "positive_absorbed_rate": 0.6278687867985742,
+      "positive_raw_increment": 49934
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 31363,
+      "positive_absorbed_rate": 0.6279256011372054,
+      "positive_raw_increment": 49947
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 32444,
+      "positive_absorbed_rate": 0.6487891695162677,
+      "positive_raw_increment": 50007
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 31513,
+      "positive_absorbed_rate": 0.6308403731432918,
+      "positive_raw_increment": 49954
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 31326,
+      "positive_absorbed_rate": 0.6270090670723164,
+      "positive_raw_increment": 49961
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 32486,
+      "positive_absorbed_rate": 0.6505527074655559,
+      "positive_raw_increment": 49936
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 32527,
+      "positive_absorbed_rate": 0.650930558335001,
+      "positive_raw_increment": 49970
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 32289,
+      "positive_absorbed_rate": 0.6457283417326614,
+      "positive_raw_increment": 50004
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 32626,
+      "positive_absorbed_rate": 0.6518420842323983,
+      "positive_raw_increment": 50052
+    }
+  ],
+  "A10": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49984
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50007
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49909
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49936
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49903
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50016
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49955
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50053
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50108
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50036
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49950
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49931
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50019
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50006
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50038
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50002
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50004
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49886
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50109
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49894
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50064
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49909
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50066
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49938
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49945
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50004
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49961
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49957
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49930
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 49980
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50003
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 0,
+      "positive_absorbed_rate": 0.0,
+      "positive_raw_increment": 50048
+    }
+  ],
+  "A11": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 31180,
+      "positive_absorbed_rate": 0.6236997919667147,
+      "positive_raw_increment": 49992
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 31841,
+      "positive_absorbed_rate": 0.63682,
+      "positive_raw_increment": 50000
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 32374,
+      "positive_absorbed_rate": 0.6486085789273336,
+      "positive_raw_increment": 49913
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 32287,
+      "positive_absorbed_rate": 0.64574,
+      "positive_raw_increment": 50000
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 31616,
+      "positive_absorbed_rate": 0.6334856135288932,
+      "positive_raw_increment": 49908
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 33202,
+      "positive_absorbed_rate": 0.6637081459270365,
+      "positive_raw_increment": 50025
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 32243,
+      "positive_absorbed_rate": 0.6455830530193817,
+      "positive_raw_increment": 49944
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 33936,
+      "positive_absorbed_rate": 0.6779200543358836,
+      "positive_raw_increment": 50059
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 33610,
+      "positive_absorbed_rate": 0.6707511774566935,
+      "positive_raw_increment": 50108
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 33931,
+      "positive_absorbed_rate": 0.6780910889506185,
+      "positive_raw_increment": 50039
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 31766,
+      "positive_absorbed_rate": 0.6361087748808523,
+      "positive_raw_increment": 49938
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 31577,
+      "positive_absorbed_rate": 0.6323240818615082,
+      "positive_raw_increment": 49938
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 33162,
+      "positive_absorbed_rate": 0.6628157978893509,
+      "positive_raw_increment": 50032
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 32741,
+      "positive_absorbed_rate": 0.6548723897911833,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 32177,
+      "positive_absorbed_rate": 0.6425889683268762,
+      "positive_raw_increment": 50074
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 32468,
+      "positive_absorbed_rate": 0.6493210407375557,
+      "positive_raw_increment": 50003
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 32152,
+      "positive_absorbed_rate": 0.6429114177164567,
+      "positive_raw_increment": 50010
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 31645,
+      "positive_absorbed_rate": 0.6342318869626216,
+      "positive_raw_increment": 49895
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 34098,
+      "positive_absorbed_rate": 0.6804629814408302,
+      "positive_raw_increment": 50110
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 32412,
+      "positive_absorbed_rate": 0.6496562506263655,
+      "positive_raw_increment": 49891
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 32115,
+      "positive_absorbed_rate": 0.6412995726666401,
+      "positive_raw_increment": 50078
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 31889,
+      "positive_absorbed_rate": 0.6389300741334402,
+      "positive_raw_increment": 49910
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 31682,
+      "positive_absorbed_rate": 0.6326025318477697,
+      "positive_raw_increment": 50082
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 31362,
+      "positive_absorbed_rate": 0.6279935923107729,
+      "positive_raw_increment": 49940
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 31325,
+      "positive_absorbed_rate": 0.6271020179372198,
+      "positive_raw_increment": 49952
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 32448,
+      "positive_absorbed_rate": 0.6487913142582928,
+      "positive_raw_increment": 50013
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 31505,
+      "positive_absorbed_rate": 0.6306297289723367,
+      "positive_raw_increment": 49958
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 31342,
+      "positive_absorbed_rate": 0.6272665412480487,
+      "positive_raw_increment": 49966
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 32467,
+      "positive_absorbed_rate": 0.6501592005927469,
+      "positive_raw_increment": 49937
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 32561,
+      "positive_absorbed_rate": 0.6515066629316899,
+      "positive_raw_increment": 49978
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 32321,
+      "positive_absorbed_rate": 0.6462390530651417,
+      "positive_raw_increment": 50014
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 32615,
+      "positive_absorbed_rate": 0.6514921497343295,
+      "positive_raw_increment": 50062
+    }
+  ],
+  "bf16_pair_boundary": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 1890,
+      "positive_absorbed_rate": 0.037816639321301374,
+      "positive_raw_increment": 49978
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 1421,
+      "positive_absorbed_rate": 0.02842227378190255,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 1314,
+      "positive_absorbed_rate": 0.026328971887711144,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 1823,
+      "positive_absorbed_rate": 0.036534530442101885,
+      "positive_raw_increment": 49898
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 2102,
+      "positive_absorbed_rate": 0.042121716129290825,
+      "positive_raw_increment": 49903
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 2266,
+      "positive_absorbed_rate": 0.0453127499600064,
+      "positive_raw_increment": 50008
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 1554,
+      "positive_absorbed_rate": 0.03110861993033591,
+      "positive_raw_increment": 49954
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 1258,
+      "positive_absorbed_rate": 0.0251313502607028,
+      "positive_raw_increment": 50057
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 942,
+      "positive_absorbed_rate": 0.018799393310449428,
+      "positive_raw_increment": 50108
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 1671,
+      "positive_absorbed_rate": 0.03339795734815022,
+      "positive_raw_increment": 50033
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 2005,
+      "positive_absorbed_rate": 0.04014657002122462,
+      "positive_raw_increment": 49942
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 1620,
+      "positive_absorbed_rate": 0.0324467232815254,
+      "positive_raw_increment": 49928
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 1340,
+      "positive_absorbed_rate": 0.026793569543309605,
+      "positive_raw_increment": 50012
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 1564,
+      "positive_absorbed_rate": 0.03127374525094981,
+      "positive_raw_increment": 50010
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 1397,
+      "positive_absorbed_rate": 0.027927153509385683,
+      "positive_raw_increment": 50023
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 1694,
+      "positive_absorbed_rate": 0.03387932241355173,
+      "positive_raw_increment": 50001
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 2109,
+      "positive_absorbed_rate": 0.04217746935183889,
+      "positive_raw_increment": 50003
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 1860,
+      "positive_absorbed_rate": 0.03728500982239506,
+      "positive_raw_increment": 49886
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 925,
+      "positive_absorbed_rate": 0.018459389343444422,
+      "positive_raw_increment": 50110
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 2394,
+      "positive_absorbed_rate": 0.0479826829414948,
+      "positive_raw_increment": 49893
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 1487,
+      "positive_absorbed_rate": 0.029719196562406316,
+      "positive_raw_increment": 50035
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 2190,
+      "positive_absorbed_rate": 0.04388161981285191,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 1921,
+      "positive_absorbed_rate": 0.03837318471464813,
+      "positive_raw_increment": 50061
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 1583,
+      "positive_absorbed_rate": 0.03170057673822493,
+      "positive_raw_increment": 49936
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 1605,
+      "positive_absorbed_rate": 0.03213792274884363,
+      "positive_raw_increment": 49941
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 1638,
+      "positive_absorbed_rate": 0.0327613104524181,
+      "positive_raw_increment": 49998
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 1411,
+      "positive_absorbed_rate": 0.02824937935452871,
+      "positive_raw_increment": 49948
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 1357,
+      "positive_absorbed_rate": 0.027164448003202883,
+      "positive_raw_increment": 49955
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 1926,
+      "positive_absorbed_rate": 0.038574776182178694,
+      "positive_raw_increment": 49929
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 2119,
+      "positive_absorbed_rate": 0.04240459466490565,
+      "positive_raw_increment": 49971
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 1845,
+      "positive_absorbed_rate": 0.03690295223617889,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 2032,
+      "positive_absorbed_rate": 0.04060426824394533,
+      "positive_raw_increment": 50044
+    }
+  ],
+  "fp16_boundary": [
+    {
+      "index": 6116,
+      "label": 3,
+      "positive_absorbed": 16851,
+      "positive_absorbed_rate": 0.3371683540757934,
+      "positive_raw_increment": 49978
+    },
+    {
+      "index": 8068,
+      "label": 1,
+      "positive_absorbed": 17218,
+      "positive_absorbed_rate": 0.34436688733774673,
+      "positive_raw_increment": 49999
+    },
+    {
+      "index": 5732,
+      "label": 1,
+      "positive_absorbed": 17555,
+      "positive_absorbed_rate": 0.35175426292904804,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 9178,
+      "label": 6,
+      "positive_absorbed": 17460,
+      "positive_absorbed_rate": 0.34986474301172227,
+      "positive_raw_increment": 49905
+    },
+    {
+      "index": 4220,
+      "label": 3,
+      "positive_absorbed": 17363,
+      "positive_absorbed_rate": 0.34794196625385754,
+      "positive_raw_increment": 49902
+    },
+    {
+      "index": 5609,
+      "label": 6,
+      "positive_absorbed": 18272,
+      "positive_absorbed_rate": 0.36536692661467707,
+      "positive_raw_increment": 50010
+    },
+    {
+      "index": 2878,
+      "label": 1,
+      "positive_absorbed": 17650,
+      "positive_absorbed_rate": 0.3532826261008807,
+      "positive_raw_increment": 49960
+    },
+    {
+      "index": 2000,
+      "label": 6,
+      "positive_absorbed": 18352,
+      "positive_absorbed_rate": 0.36663669963040657,
+      "positive_raw_increment": 50055
+    },
+    {
+      "index": 1916,
+      "label": 6,
+      "positive_absorbed": 16679,
+      "positive_absorbed_rate": 0.3328610201963758,
+      "positive_raw_increment": 50108
+    },
+    {
+      "index": 1722,
+      "label": 2,
+      "positive_absorbed": 18876,
+      "positive_absorbed_rate": 0.3772710011392481,
+      "positive_raw_increment": 50033
+    },
+    {
+      "index": 9365,
+      "label": 3,
+      "positive_absorbed": 17660,
+      "positive_absorbed_rate": 0.35359602755085695,
+      "positive_raw_increment": 49944
+    },
+    {
+      "index": 8228,
+      "label": 0,
+      "positive_absorbed": 17285,
+      "positive_absorbed_rate": 0.34619852587726324,
+      "positive_raw_increment": 49928
+    },
+    {
+      "index": 9961,
+      "label": 6,
+      "positive_absorbed": 17601,
+      "positive_absorbed_rate": 0.3519144256722983,
+      "positive_raw_increment": 50015
+    },
+    {
+      "index": 6707,
+      "label": 6,
+      "positive_absorbed": 17659,
+      "positive_absorbed_rate": 0.3530952571382868,
+      "positive_raw_increment": 50012
+    },
+    {
+      "index": 6680,
+      "label": 1,
+      "positive_absorbed": 17148,
+      "positive_absorbed_rate": 0.34274749655213765,
+      "positive_raw_increment": 50031
+    },
+    {
+      "index": 144,
+      "label": 7,
+      "positive_absorbed": 17800,
+      "positive_absorbed_rate": 0.35599288014239716,
+      "positive_raw_increment": 50001
+    },
+    {
+      "index": 4697,
+      "label": 7,
+      "positive_absorbed": 17760,
+      "positive_absorbed_rate": 0.35517158627309814,
+      "positive_raw_increment": 50004
+    },
+    {
+      "index": 3921,
+      "label": 2,
+      "positive_absorbed": 17590,
+      "positive_absorbed_rate": 0.35254033470287605,
+      "positive_raw_increment": 49895
+    },
+    {
+      "index": 6374,
+      "label": 1,
+      "positive_absorbed": 17189,
+      "positive_absorbed_rate": 0.3430253442426661,
+      "positive_raw_increment": 50110
+    },
+    {
+      "index": 3337,
+      "label": 2,
+      "positive_absorbed": 18268,
+      "positive_absorbed_rate": 0.3661508859135733,
+      "positive_raw_increment": 49892
+    },
+    {
+      "index": 9509,
+      "label": 1,
+      "positive_absorbed": 17134,
+      "positive_absorbed_rate": 0.34239923262924404,
+      "positive_raw_increment": 50041
+    },
+    {
+      "index": 7163,
+      "label": 2,
+      "positive_absorbed": 17635,
+      "positive_absorbed_rate": 0.353357244474723,
+      "positive_raw_increment": 49907
+    },
+    {
+      "index": 895,
+      "label": 0,
+      "positive_absorbed": 17005,
+      "positive_absorbed_rate": 0.33967879829012027,
+      "positive_raw_increment": 50062
+    },
+    {
+      "index": 192,
+      "label": 0,
+      "positive_absorbed": 17355,
+      "positive_absorbed_rate": 0.34755181736257135,
+      "positive_raw_increment": 49935
+    },
+    {
+      "index": 9650,
+      "label": 7,
+      "positive_absorbed": 17081,
+      "positive_absorbed_rate": 0.34202358783364367,
+      "positive_raw_increment": 49941
+    },
+    {
+      "index": 3233,
+      "label": 4,
+      "positive_absorbed": 17350,
+      "positive_absorbed_rate": 0.3470069401388028,
+      "positive_raw_increment": 49999
+    },
+    {
+      "index": 7198,
+      "label": 8,
+      "positive_absorbed": 17125,
+      "positive_absorbed_rate": 0.34284970670083487,
+      "positive_raw_increment": 49949
+    },
+    {
+      "index": 2130,
+      "label": 4,
+      "positive_absorbed": 16586,
+      "positive_absorbed_rate": 0.3320055247512861,
+      "positive_raw_increment": 49957
+    },
+    {
+      "index": 3500,
+      "label": 4,
+      "positive_absorbed": 17504,
+      "positive_absorbed_rate": 0.35057782050511727,
+      "positive_raw_increment": 49929
+    },
+    {
+      "index": 3875,
+      "label": 4,
+      "positive_absorbed": 17879,
+      "positive_absorbed_rate": 0.35778035699991995,
+      "positive_raw_increment": 49972
+    },
+    {
+      "index": 3861,
+      "label": 9,
+      "positive_absorbed": 17568,
+      "positive_absorbed_rate": 0.3513881110488839,
+      "positive_raw_increment": 49996
+    },
+    {
+      "index": 6871,
+      "label": 7,
+      "positive_absorbed": 17977,
+      "positive_absorbed_rate": 0.35921670496553104,
+      "positive_raw_increment": 50045
+    }
+  ]
+}

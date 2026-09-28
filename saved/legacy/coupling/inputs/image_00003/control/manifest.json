@@ -1,0 +1,19 @@
+{
+  "files": {
+    "controls.npz": {
+      "bytes": 1625118,
+      "sha256": "e0c96063a79d75749b86e139583198fad20ac4a366caa72f08ecfc6bb0e8d1f1"
+    },
+    "metrics.json": {
+      "bytes": 882,
+      "sha256": "8d97f50b99e789a5daad29b6d2776f442d50f75298012e5ae0fe71db2c7c9221"
+    },
+    "trace.json": {
+      "bytes": 909,
+      "sha256": "2a058f691d74d252ef9538c3aaef7d6a893be2c804a9fc2c7a4c04742199d638"
+    }
+  },
+  "input_trace": {
+    "manifest_sha256": "2714725b57f994bff1cb8e2aa3972e3069ea63b272fb5a26257fd4d040cb6c27"
+  }
+}

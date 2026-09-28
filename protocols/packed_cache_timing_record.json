@@ -1,0 +1,652 @@
+{
+  "input_image_sha256": "ec5c7499c04013b0e2be05982c45dd0372488037c5f3aa330894e46bd5ec5899",
+  "interpretation": "Retained backing-buffer payload at call boundaries; TFJS tensor accounting is separate and may be unreliable. No claim about peak live memory or RSS.",
+  "model_files": [
+    {
+      "bytes": 386110,
+      "name": "model.json",
+      "sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard1of7.bin",
+      "sha256": "81e68fcfae9499fc116d8a85c87215f766f19c7d28d1c3b8ab2ab5e61650e965"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard2of7.bin",
+      "sha256": "b8589e74a115db7d1cea63cf6dcb776c87e64169cbc35133bbcee7912d5409c5"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard3of7.bin",
+      "sha256": "b0356e44d7cc033b8be2a92d1e7cb423850f1761b1741affe3f173db769b9ba7"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard4of7.bin",
+      "sha256": "d3ccdf02016baadeb3712a4fa9aec104c2854bc836dd7cd7861908b0da6c382d"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard5of7.bin",
+      "sha256": "59634fee8082996f4bc6977f30032a09ddf8fec371850b9064191500b5d3adf2"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard6of7.bin",
+      "sha256": "d5616b81909a30e96df27a179dca54c83fc20cd5ac1b4388b9e4ffee09074e3d"
+    },
+    {
+      "bytes": 673276,
+      "name": "group1-shard7of7.bin",
+      "sha256": "bab7e2ca05ab24e858bd115b71db967abdf8ebf0f3514583644ccae3ad632b44"
+    }
+  ],
+  "model_graph_sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e",
+  "omitted_original_fields": [
+    "absolute command executable/script paths",
+    "absolute input file path"
+  ],
+  "original_exit_code": 0,
+  "original_run_sha256": "3150f0cd17e0c33d0d09e5200639f7f73e68958cd8cfaa4438ac2537e4d666a5",
+  "reported_elapsed_seconds": 228.978566571,
+  "reported_end_utc": "2026-09-23T11:24:03.284Z",
+  "reported_start_utc": "2026-09-23T11:20:14.306Z",
+  "result": {
+    "paired": {
+      "bf16_boundary": {
+        "max": 1.097648576589692,
+        "median": 1.0130811452836663,
+        "min": 0.91377008294896,
+        "ratios": [
+          0.92302021214576,
+          1.0698275048381776,
+          1.0449143762740665,
+          0.91377008294896,
+          0.9812479142932662,
+          1.097648576589692
+        ],
+        "screenAtMostFivePercentOverhead": true
+      },
+      "bf16_pair_boundary": {
+        "max": 1.1515470424646317,
+        "median": 1.083967661178522,
+        "min": 0.992174480061343,
+        "ratios": [
+          1.1310404102323868,
+          1.0823361559324687,
+          1.0855991664245754,
+          1.0255293442116007,
+          0.992174480061343,
+          1.1515470424646317
+        ],
+        "screenAtMostFivePercentOverhead": false
+      }
+    },
+    "rounds": [
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 11.894301664,
+          "bf16_pair_boundary": 14.574909256,
+          "native": 12.886285162
+        },
+        "order": [
+          "bf16_boundary",
+          "bf16_pair_boundary",
+          "native"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 1,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      },
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 12.337532818,
+          "bf16_pair_boundary": 12.48178588,
+          "native": 11.532263624
+        },
+        "order": [
+          "bf16_boundary",
+          "native",
+          "bf16_pair_boundary"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 2,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      },
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 12.149159455,
+          "bf16_pair_boundary": 12.622199174,
+          "native": 11.626942581
+        },
+        "order": [
+          "bf16_pair_boundary",
+          "bf16_boundary",
+          "native"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 3,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      },
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 11.681541839,
+          "bf16_pair_boundary": 13.110260628,
+          "native": 12.783896143
+        },
+        "order": [
+          "bf16_pair_boundary",
+          "native",
+          "bf16_boundary"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 4,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      },
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 11.676098554,
+          "bf16_pair_boundary": 11.806116317,
+          "native": 11.89923401
+        },
+        "order": [
+          "native",
+          "bf16_boundary",
+          "bf16_pair_boundary"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 5,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      },
+      {
+        "consumedSum": {
+          "bf16_boundary": -101.52475767582655,
+          "bf16_pair_boundary": -103.16657965630293,
+          "native": -103.16596110537648
+        },
+        "loopSeconds": {
+          "bf16_boundary": 12.697430167,
+          "bf16_pair_boundary": 13.320919343,
+          "native": 11.567846429
+        },
+        "order": [
+          "native",
+          "bf16_pair_boundary",
+          "bf16_boundary"
+        ],
+        "retainedAfterLoop": {
+          "bf16_boundary": {
+            "backingBuffers": 2,
+            "bytes": 135168,
+            "viewByteLengths": [
+              4096,
+              131072
+            ]
+          },
+          "bf16_pair_boundary": {
+            "backingBuffers": 4,
+            "bytes": 270336,
+            "viewByteLengths": [
+              4096,
+              4096,
+              131072,
+              131072
+            ]
+          },
+          "native": {
+            "backingBuffers": 2,
+            "bytes": 270336,
+            "viewByteLengths": [
+              8192,
+              262144
+            ]
+          }
+        },
+        "round": 6,
+        "tfMemoryAtBoundary": {
+          "bf16_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "bf16_pair_boundary": {
+            "numBytes": 25839100,
+            "numDataBuffers": 556,
+            "numTensors": 556,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          },
+          "native": {
+            "numBytes": 26109436,
+            "numDataBuffers": 558,
+            "numTensors": 558,
+            "reasons": [
+              "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+            ],
+            "unreliable": true
+          }
+        }
+      }
+    ],
+    "tfMemoryAfterRuns": {
+      "numBytes": 25839100,
+      "numDataBuffers": 556,
+      "numTensors": 556,
+      "reasons": [
+        "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+      ],
+      "unreliable": true
+    },
+    "warm": {
+      "bf16_boundary": {
+        "calls": 32,
+        "consumedSum": -78.06290900707245,
+        "retained": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "tfMemoryAtBoundary": {
+          "numBytes": 25839100,
+          "numDataBuffers": 556,
+          "numTensors": 556,
+          "reasons": [
+            "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+          ],
+          "unreliable": true
+        }
+      },
+      "bf16_pair_boundary": {
+        "calls": 32,
+        "consumedSum": -78.0771803855896,
+        "retained": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "tfMemoryAtBoundary": {
+          "numBytes": 25839100,
+          "numDataBuffers": 556,
+          "numTensors": 556,
+          "reasons": [
+            "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+          ],
+          "unreliable": true
+        }
+      },
+      "native": {
+        "calls": 32,
+        "consumedSum": -78.07724726200104,
+        "retained": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        },
+        "tfMemoryAtBoundary": {
+          "numBytes": 26109436,
+          "numDataBuffers": 558,
+          "numTensors": 558,
+          "reasons": [
+            "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+          ],
+          "unreliable": true
+        }
+      }
+    }
+  },
+  "runtime": {
+    "backend": "cpu",
+    "cpuCaps": {
+      "omp": 2,
+      "openblas": 2,
+      "uvThreadpool": 2,
+      "v8Pool": 1
+    },
+    "node": "v20.19.6",
+    "tfjs": "2.0.0"
+  },
+  "schema": "RatioState-packed-cache-timing-scientific-extract-v1",
+  "source_sha256": {
+    "contractSha256": "805f868cf7790ce3c617256e2ea7bbc1f0f2f55669513ad06c0d2d0386ad7630",
+    "oldRunnerSha256": "a2a29690624a5d4ab1b1e5e236820ec856119dafc4c95f43ffa78bdc2ca877c5",
+    "runnerSha256": "35abab5acf4a4e5f7a12da1bef781814bf184a4b3e22db6a20e883ca89207eff"
+  },
+  "temporal_limit": "reported local times and hashes do not independently authenticate original execution date",
+  "tf_memory_before": {
+    "numBytes": 25839100,
+    "numDataBuffers": 556,
+    "numTensors": 556,
+    "reasons": [
+      "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+    ],
+    "unreliable": true
+  },
+  "tf_memory_before_dispose": {
+    "numBytes": 25839100,
+    "numDataBuffers": 556,
+    "numTensors": 556,
+    "reasons": [
+      "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+    ],
+    "unreliable": true
+  }
+}

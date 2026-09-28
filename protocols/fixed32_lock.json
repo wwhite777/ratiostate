@@ -1,0 +1,554 @@
+{
+  "graph_sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e",
+  "image_idx_sha256": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+  "label_idx_sha256": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2",
+  "model_files": [
+    {
+      "bytes": 4194304,
+      "name": "group1-shard1of7.bin",
+      "sha256": "81e68fcfae9499fc116d8a85c87215f766f19c7d28d1c3b8ab2ab5e61650e965"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard2of7.bin",
+      "sha256": "b8589e74a115db7d1cea63cf6dcb776c87e64169cbc35133bbcee7912d5409c5"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard3of7.bin",
+      "sha256": "b0356e44d7cc033b8be2a92d1e7cb423850f1761b1741affe3f173db769b9ba7"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard4of7.bin",
+      "sha256": "d3ccdf02016baadeb3712a4fa9aec104c2854bc836dd7cd7861908b0da6c382d"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard5of7.bin",
+      "sha256": "59634fee8082996f4bc6977f30032a09ddf8fec371850b9064191500b5d3adf2"
+    },
+    {
+      "bytes": 4194304,
+      "name": "group1-shard6of7.bin",
+      "sha256": "d5616b81909a30e96df27a179dca54c83fc20cd5ac1b4388b9e4ffee09074e3d"
+    },
+    {
+      "bytes": 673276,
+      "name": "group1-shard7of7.bin",
+      "sha256": "bab7e2ca05ab24e858bd115b71db967abdf8ebf0f3514583644ccae3ad632b44"
+    },
+    {
+      "bytes": 386110,
+      "name": "model.json",
+      "sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e"
+    }
+  ],
+  "omitted_original_fields": [
+    "sourceSha256 operational source-path map",
+    "compatibility raw artifact paths",
+    "rows[].pixels workspace path"
+  ],
+  "original_contract_sha256": "0e520fd5352a7c170bf759ff358b53d88c7da97071512151c11f8a6e027e3b5b",
+  "original_lock_sha256": "9feb87e4063ce80c6374146e0ec2bb252656b6759f44fdf7d4be01078d64d380",
+  "original_selection_sha256": "874e99088642579dd11a62da64e4a9415f7356a8db37b38e7ea79902fe012371",
+  "pixel_exports_combined_sha256": "7fe88e2fd6807bd873dfecae0051e11fedc020130dc20e8365583dd5f3f2eed9",
+  "reported_date": "2026-09-24",
+  "reported_status_in_original": "locked_before_fixed32_inference",
+  "resource_caps": {
+    "backend": "cpu",
+    "childWallSeconds": 10800,
+    "compatibilityCalls": 3,
+    "maxConcurrentChildren": 2,
+    "modelCalls": 192,
+    "modelTimeoutSeconds": 120,
+    "numericalThreadsPerChild": 1,
+    "scoreCalls": 192,
+    "scoreTimeoutSeconds": 30,
+    "v8Pool": 1
+  },
+  "rows": [
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 6116,
+      "label": 3,
+      "ordinal": 0,
+      "pixelBytesSha256": "f96bcec10a0d20cf564bff90cb6ddc33df2d60456628065d0e5c48b1066ca109",
+      "pixelsSha256": "b336fe2a998afb0be951691ad302b807f3fdd714202741abb5f5646f9d9590e4"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 8068,
+      "label": 1,
+      "ordinal": 1,
+      "pixelBytesSha256": "c367a54e699aed8071b8de80196fb6930fee1fdaf1f8bc2ecca20e63841f75ae",
+      "pixelsSha256": "1369a54935602056ea0fb3681f367693d442e6ab6c64795fa45b64d87e00b506"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 5732,
+      "label": 1,
+      "ordinal": 2,
+      "pixelBytesSha256": "d357146d16d1dcd8eef80bbe9a7ccc3fce7a50d7525c4a2643f2cf60115ce0c6",
+      "pixelsSha256": "9d6cb7558ce1015cc2b86b243199f57fa3c0e9d408fd4a1f6a5872ccadf01715"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 9178,
+      "label": 6,
+      "ordinal": 3,
+      "pixelBytesSha256": "62829ec3bb41f509bfa02e6360c6c627cc331a1a2b4775f95817530cb9aed8b2",
+      "pixelsSha256": "be14f39cf10095efb108a022c6f8525dec973642a91516990608306d6263fb79"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 4220,
+      "label": 3,
+      "ordinal": 4,
+      "pixelBytesSha256": "603c3d94407c9a5523c529f6d938c80b9c6e3e1187436de1a0e1fea6e2bccdea",
+      "pixelsSha256": "44d2218cd22df18a514b7c702e3ed3b3cb3caeee6896f2b6ed152c18b2cfd0fd"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 5609,
+      "label": 6,
+      "ordinal": 5,
+      "pixelBytesSha256": "630a9f9dc688842a08246586cb318911dbec3ab57c46db0d8de1cdc4ebe17ed0",
+      "pixelsSha256": "ca4322697608e251b726d8c31341143041964c2471237faad34aa89e8edace2d"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 2878,
+      "label": 1,
+      "ordinal": 6,
+      "pixelBytesSha256": "fa40d34818b313c57d7e25945668c30608116ebbec9589727b881e5341580b44",
+      "pixelsSha256": "c7f2905cb094f8393431ca2699ffcbda2ac9d72d3bbca52889f98b86c9946185"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 2000,
+      "label": 6,
+      "ordinal": 7,
+      "pixelBytesSha256": "748008e0037dce0968939c7a4d8b760a0042eae18f54877f3cd612c637961636",
+      "pixelsSha256": "f98df037ea7880da9dc52cac61880bfeeb6782acd82d950227092af470e7a5d9"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 1916,
+      "label": 6,
+      "ordinal": 8,
+      "pixelBytesSha256": "3cbf0bf851bba405fbe4c5500934290274c72c83a6f106b64a208a9473223cd1",
+      "pixelsSha256": "59b7decbf1eaba64d2856756ce17b6ca38d5926b0eb931e998018dbb33434be8"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 1722,
+      "label": 2,
+      "ordinal": 9,
+      "pixelBytesSha256": "22a4434cf696ab56fc2ac60619a1f3ce6e74fee762a6553f48cdc1b6bac0761a",
+      "pixelsSha256": "21ceb97ea1ee82a50af81115259890e13119dd2bc12f14b3583c6dbe8faa9682"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 9365,
+      "label": 3,
+      "ordinal": 10,
+      "pixelBytesSha256": "736a4f2b4d00f843a8a5e1ac70c978715336a67d37042f688b056b806524529e",
+      "pixelsSha256": "b911404e81ca9110350c7a5921217f026a632944fa422872f1b0bf1f02bf6fd0"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 8228,
+      "label": 0,
+      "ordinal": 11,
+      "pixelBytesSha256": "2b190270fea5be98dc79958451598a9d44c44e434165a4312d5ece3eca92d2fb",
+      "pixelsSha256": "db57eab0a2f898d25f6e93df591d43a865f404830a1825a249894a7717dd5df7"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 9961,
+      "label": 6,
+      "ordinal": 12,
+      "pixelBytesSha256": "ccb9c1a629fb683e50fc9069e791ed4cad66920d57d4f9996852b5a2e228f3bc",
+      "pixelsSha256": "d9487e18f94e1d9005d173a7a2cbeb674b336ae3a04da360a1c9218c220ed598"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 6707,
+      "label": 6,
+      "ordinal": 13,
+      "pixelBytesSha256": "9aff61c90818410a7c683de8d67a0dbc2ed56e5744ec08cfd4b2a7d6cbb169bf",
+      "pixelsSha256": "3dcf83bf8d6f0da1679b872455ef9c0673907945203dceba77e0ed396543e3ea"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 6680,
+      "label": 1,
+      "ordinal": 14,
+      "pixelBytesSha256": "da99ebd2f57d9a17b399bcdf78788b692346161d3033b9f6104f1de8168b4455",
+      "pixelsSha256": "49557c8001e9b305ceca6570007269c4400a7a589780f56739d89f2002fe5d1b"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 144,
+      "label": 7,
+      "ordinal": 15,
+      "pixelBytesSha256": "f4b80dfe0c7a0235dd8ed84db8ee5ee209a79bfec425e1057ddd50b2a18eff01",
+      "pixelsSha256": "7352db1449f8a7c942b8ca22da810e8a81e6b92a73e890cba09a642651075532"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 4697,
+      "label": 7,
+      "ordinal": 16,
+      "pixelBytesSha256": "caa405ccb10231907c469c045514d75faf873136984b370191d03c90d47512b5",
+      "pixelsSha256": "225f0d3e6ae53be0af7ed29617a62f97315b5c6bc583586704235d611df6fdd4"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 3921,
+      "label": 2,
+      "ordinal": 17,
+      "pixelBytesSha256": "1eed2a9b8fe7429defa2f3365c5704118adc6559c404bdd806990aad6706449f",
+      "pixelsSha256": "f13476f549f9c644f737431cf2fe7ee767b37de79830617ecc767aafd2da9dcc"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 6374,
+      "label": 1,
+      "ordinal": 18,
+      "pixelBytesSha256": "8d9eebb65cd6083a84b22d572ba9786ad1d8e87b01fc4044511281d6d6537bc2",
+      "pixelsSha256": "fd19f64690288cc5009227b1461f3aa1dc842ed1a5154f73e07429329117dead"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 3337,
+      "label": 2,
+      "ordinal": 19,
+      "pixelBytesSha256": "aeb31e3e3834022796b53bd9165f568a803ff29d7db0fe0b3099b4f75d17be0e",
+      "pixelsSha256": "f7d27c98be61804414cc52111cdf0f60d8a7cccab9d2d2b38058369c04aa27ba"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 9509,
+      "label": 1,
+      "ordinal": 20,
+      "pixelBytesSha256": "a821ad07169ee6cb5f7313b6b55ea7b9cc96aa1186be1fe40ba870f2e481da7b",
+      "pixelsSha256": "d99b12a76641193d9867edf4306f411bbd8e19fc2d866e6831224744e2b5d3db"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 7163,
+      "label": 2,
+      "ordinal": 21,
+      "pixelBytesSha256": "90f51e1482379b8b69c0c8253c374d12530e2cd76e1317c73d82f6e9bb70466f",
+      "pixelsSha256": "f5a25c221f06f0810b92938bedd9df495c8b3cd008f31b7e8b9502047e73db06"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 895,
+      "label": 0,
+      "ordinal": 22,
+      "pixelBytesSha256": "1d89fa9ca5baf920b9796c009ec4dd789cb8bfe207fc0ef1986f44ed9a6488c9",
+      "pixelsSha256": "14bc81c5dee1f16b8da01201c0f35c461aceaec27c0f5d0058f11b63fefb4f6e"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 192,
+      "label": 0,
+      "ordinal": 23,
+      "pixelBytesSha256": "9b7aaca3faea7ffd180455de2a172bb242ced9946917982cafad89292ebafbfd",
+      "pixelsSha256": "61cc4fb1a114517dc81d47b833eb11bc6696c832bccc15abadd699c7be3409fb"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 9650,
+      "label": 7,
+      "ordinal": 24,
+      "pixelBytesSha256": "a6d7c2dfe6c4f4c8f3916928c5ac638cc949b41d9688256200aaf7c4e2e2381b",
+      "pixelsSha256": "cf036cb11a5ca1de07603f759db74bd550afd7dec3a0e41325cef83371cf6556"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 3233,
+      "label": 4,
+      "ordinal": 25,
+      "pixelBytesSha256": "79facfce9359982977dd616339a637aa4d7541ce74ad5010bda37b17c774c5e8",
+      "pixelsSha256": "9fb7a46050f47536b2b64f65abe5f48701675d3c4fafa12065af06395e285256"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 7198,
+      "label": 8,
+      "ordinal": 26,
+      "pixelBytesSha256": "617e28548cc0eafc061164f71db3d64ed8cde9fd6fe21bf54c30eebeac4ea650",
+      "pixelsSha256": "5921483c7edd055bbfa32839387554b0dbf58c6498076fbf88440e7f2e33eb97"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01"
+      ],
+      "index": 2130,
+      "label": 4,
+      "ordinal": 27,
+      "pixelBytesSha256": "3b659aa46e7e60f01f3be418fe3af6949ee91f777ea2239ba0f9ccdb2d97626f",
+      "pixelsSha256": "2f77c621dff392d54746f2d58d5763c53d24e181367348f60f3ae0cbe6707549"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11"
+      ],
+      "index": 3500,
+      "label": 4,
+      "ordinal": 28,
+      "pixelBytesSha256": "b0993d936fa3120dde6fd125b0519836bdfed63fa625718bb0680a66442bb4c5",
+      "pixelsSha256": "73fe06d30cd51e7ade9170b9f2ac45148f3056241dc86996f91b83d65ac7f507"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "bf16_pair_boundary",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary"
+      ],
+      "index": 3875,
+      "label": 4,
+      "ordinal": 29,
+      "pixelBytesSha256": "789ab5739b1bba5657a3c0deb938efacf434f88de3cefd443b69b8110261ccda",
+      "pixelsSha256": "e217fa10d9017683aa1e5051d53c62b9cca625822048cd5b95a2a12e62df1c8e"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A10",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "index": 3861,
+      "label": 9,
+      "ordinal": 30,
+      "pixelBytesSha256": "f6b62de2049e0403e73c47d74b5c3aa6e6f1a771606fdc7a638ae329217438d5",
+      "pixelsSha256": "e6b6730f780b0f1efef2121626de180c80f3bbecdc2ce56658154a9925b67f69"
+    },
+    {
+      "armOrder": [
+        "A00",
+        "A01",
+        "A11",
+        "fp16_boundary",
+        "bf16_pair_boundary",
+        "A10"
+      ],
+      "index": 6871,
+      "label": 7,
+      "ordinal": 31,
+      "pixelBytesSha256": "858fd5f77310bf0143554a525c65324f920d0157ad11dc2b9948dd3a318ba91d",
+      "pixelsSha256": "dc0fee257dbc90bd529a2701684e22e586b21b68575911f6cbe22bd5a32f8f04"
+    }
+  ],
+  "schema": "RatioState-fixed32-scientific-lock-extract-v1",
+  "temporal_limit": "reported local date/status and hashes do not independently authenticate when the record was created"
+}

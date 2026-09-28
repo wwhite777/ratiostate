@@ -1,0 +1,327 @@
+{
+  "arms": {
+    "A00": {
+      "score_descriptive": {
+        "max": 1.1939386690871674,
+        "mean": 0.6272882795678643,
+        "min": 0.09530072789391535,
+        "n": 32,
+        "sample_sd": 0.2986844547655702
+      },
+      "signed_minus_FP32": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "n": 32,
+        "sample_sd": 0.0
+      }
+    },
+    "A01": {
+      "score_descriptive": {
+        "max": 1.192686021920738,
+        "mean": 0.6299799659442089,
+        "min": 0.09512433897185076,
+        "n": 32,
+        "sample_sd": 0.29796428628388655
+      },
+      "signed_minus_FP32": {
+        "max": 0.01807704884955652,
+        "mean": 0.002691686376344739,
+        "mean_absolute": 0.003994499236329368,
+        "min": -0.005349410065521254,
+        "n": 32,
+        "negative": 13,
+        "paired_standardized_d": 0.5517619894174265,
+        "paired_t": 3.121237154544339,
+        "paired_t_df": 31,
+        "positive": 19,
+        "sample_sd": 0.004878346874141755,
+        "standard_error": 0.000862378038921458,
+        "two_sided_p_exploratory": 0.003880034733841502,
+        "zero": 0
+      }
+    },
+    "A10": {
+      "score_descriptive": {
+        "max": 1.1928926545841303,
+        "mean": 0.6277340289439903,
+        "min": 0.09631535283162489,
+        "n": 32,
+        "sample_sd": 0.2985117564623295
+      },
+      "signed_minus_FP32": {
+        "max": 0.020874117041709217,
+        "mean": 0.00044574937612619926,
+        "mean_absolute": 0.005986572872567331,
+        "min": -0.01585889380119121,
+        "n": 32,
+        "negative": 15,
+        "paired_standardized_d": 0.05707647517118651,
+        "paired_t": 0.32287330111817275,
+        "paired_t_df": 31,
+        "positive": 17,
+        "sample_sd": 0.007809686473968238,
+        "standard_error": 0.0013805705661709496,
+        "two_sided_p_exploratory": 0.7489589573577263,
+        "zero": 0
+      }
+    },
+    "A11": {
+      "score_descriptive": {
+        "max": 1.1914697443335867,
+        "mean": 0.6332854914356576,
+        "min": 0.09624753177246888,
+        "n": 32,
+        "sample_sd": 0.297061787797982
+      },
+      "signed_minus_FP32": {
+        "max": 0.03151160938104952,
+        "mean": 0.005997211867793487,
+        "mean_absolute": 0.007484145699085846,
+        "min": -0.008862889452502909,
+        "n": 32,
+        "negative": 6,
+        "paired_standardized_d": 0.6850983690110981,
+        "paired_t": 3.8755016200607293,
+        "paired_t_df": 31,
+        "positive": 26,
+        "sample_sd": 0.008753796737905146,
+        "standard_error": 0.0015474672586253519,
+        "two_sided_p_exploratory": 0.000515707716365843,
+        "zero": 0
+      }
+    },
+    "bf16_pair_boundary": {
+      "score_descriptive": {
+        "max": 1.1939393960049223,
+        "mean": 0.6272871941567609,
+        "min": 0.09529795720422582,
+        "n": 32,
+        "sample_sd": 0.2986846244489285
+      },
+      "signed_minus_FP32": {
+        "max": 6.30800453904623e-06,
+        "mean": -1.085411103301636e-06,
+        "mean_absolute": 3.813194744747752e-06,
+        "min": -1.8996192742315454e-05,
+        "n": 32,
+        "negative": 17,
+        "paired_standardized_d": -0.20894823092239467,
+        "paired_t": -1.1819896880172636,
+        "paired_t_df": 31,
+        "positive": 15,
+        "sample_sd": 5.194641268366459e-06,
+        "standard_error": 9.182915166733528e-07,
+        "two_sided_p_exploratory": 0.2461974651100735,
+        "zero": 0
+      }
+    },
+    "fp16_boundary": {
+      "score_descriptive": {
+        "max": 1.1936900706626514,
+        "mean": 0.6271245743498715,
+        "min": 0.09544967689376242,
+        "n": 32,
+        "sample_sd": 0.2987959266935026
+      },
+      "signed_minus_FP32": {
+        "max": 0.0021071637889453765,
+        "mean": -0.00016370521799275502,
+        "mean_absolute": 0.0009322047420144723,
+        "min": -0.0024086275567781756,
+        "n": 32,
+        "negative": 19,
+        "paired_standardized_d": -0.1403654885447356,
+        "paired_t": -0.7940271103563616,
+        "paired_t_df": 31,
+        "positive": 13,
+        "sample_sd": 0.0011662782617721653,
+        "standard_error": 0.00020617081691238936,
+        "two_sided_p_exploratory": 0.4332161647576191,
+        "zero": 0
+      }
+    }
+  },
+  "contrasts": {
+    "A10_minus_fp16": {
+      "max": 0.021094249738327187,
+      "mean": 0.0006094545941189543,
+      "mean_absolute": 0.006134688825793584,
+      "min": -0.01629079066272965,
+      "n": 32,
+      "negative": 14,
+      "original_pointwise_bootstrap_95": [
+        -0.0020801581163835932,
+        0.0034163016709108564
+      ],
+      "paired_standardized_d": 0.07617703208905516,
+      "paired_t": 0.4309223676866891,
+      "paired_t_df": 31,
+      "positive": 18,
+      "sample_sd": 0.00800050326726392,
+      "standard_error": 0.0014143025282968616,
+      "two_sided_p_exploratory": 0.6695064824663121,
+      "zero": 0
+    },
+    "fp16_minus_A00": {
+      "max": 0.0021071637889453765,
+      "mean": -0.00016370521799275502,
+      "mean_absolute": 0.0009322047420144723,
+      "min": -0.0024086275567781756,
+      "n": 32,
+      "negative": 19,
+      "original_pointwise_bootstrap_95": [
+        -0.0005587433742163321,
+        0.0002337351055729737
+      ],
+      "paired_standardized_d": -0.1403654885447356,
+      "paired_t": -0.7940271103563616,
+      "paired_t_df": 31,
+      "positive": 13,
+      "sample_sd": 0.0011662782617721653,
+      "standard_error": 0.00020617081691238936,
+      "two_sided_p_exploratory": 0.4332161647576191,
+      "zero": 0
+    },
+    "interaction": {
+      "max": 0.01634364664543847,
+      "mean": 0.0028597761153225506,
+      "mean_absolute": 0.003038821172448505,
+      "min": -0.0016556582999247837,
+      "n": 32,
+      "negative": 7,
+      "original_pointwise_bootstrap_95": [
+        0.0016073973103084475,
+        0.004313099749080134
+      ],
+      "paired_standardized_d": 0.710365010901727,
+      "paired_t": 4.018431330610135,
+      "paired_t_df": 31,
+      "positive": 25,
+      "sample_sd": 0.004025784028541035,
+      "standard_error": 0.0007116647965434658,
+      "two_sided_p_exploratory": 0.00034705110677475345,
+      "zero": 0
+    },
+    "joint_A11_minus_A00": {
+      "max": 0.03151160938104952,
+      "mean": 0.005997211867793487,
+      "mean_absolute": 0.007484145699085846,
+      "min": -0.008862889452502909,
+      "n": 32,
+      "negative": 6,
+      "original_pointwise_bootstrap_95": [
+        0.0031551281365168058,
+        0.009093026130535987
+      ],
+      "paired_standardized_d": 0.6850983690110981,
+      "paired_t": 3.8755016200607293,
+      "paired_t_df": 31,
+      "positive": 26,
+      "sample_sd": 0.008753796737905146,
+      "standard_error": 0.0015474672586253519,
+      "two_sided_p_exploratory": 0.000515707716365843,
+      "zero": 0
+    },
+    "matrix_given_bf16_normalizer": {
+      "max": 0.027433331341717604,
+      "mean": 0.003305525491448748,
+      "mean_absolute": 0.006370973785511854,
+      "min": -0.011796216539362525,
+      "n": 32,
+      "negative": 11,
+      "original_pointwise_bootstrap_95": [
+        0.0005138341775716416,
+        0.006364743596161445
+      ],
+      "paired_standardized_d": 0.38635903182618747,
+      "paired_t": 2.1855767310157304,
+      "paired_t_df": 31,
+      "positive": 21,
+      "sample_sd": 0.00855557970477526,
+      "standard_error": 0.0015124271065571466,
+      "two_sided_p_exploratory": 0.036524980438065596,
+      "zero": 0
+    },
+    "matrix_only_A10_minus_A00": {
+      "max": 0.020874117041709217,
+      "mean": 0.00044574937612619926,
+      "mean_absolute": 0.005986572872567331,
+      "min": -0.01585889380119121,
+      "n": 32,
+      "negative": 15,
+      "original_pointwise_bootstrap_95": [
+        -0.002183338703094968,
+        0.003163346677628809
+      ],
+      "paired_standardized_d": 0.05707647517118651,
+      "paired_t": 0.32287330111817275,
+      "paired_t_df": 31,
+      "positive": 17,
+      "sample_sd": 0.007809686473968238,
+      "standard_error": 0.0013805705661709496,
+      "two_sided_p_exploratory": 0.7489589573577263,
+      "zero": 0
+    },
+    "normalizer_only_A01_minus_A00": {
+      "max": 0.01807704884955652,
+      "mean": 0.002691686376344739,
+      "mean_absolute": 0.003994499236329368,
+      "min": -0.005349410065521254,
+      "n": 32,
+      "negative": 13,
+      "original_pointwise_bootstrap_95": [
+        0.0010926459887729053,
+        0.004401006056059919
+      ],
+      "paired_standardized_d": 0.5517619894174265,
+      "paired_t": 3.121237154544339,
+      "paired_t_df": 31,
+      "positive": 19,
+      "sample_sd": 0.004878346874141755,
+      "standard_error": 0.000862378038921458,
+      "two_sided_p_exploratory": 0.003880034733841502,
+      "zero": 0
+    },
+    "pair_minus_A00": {
+      "max": 6.30800453904623e-06,
+      "mean": -1.085411103301636e-06,
+      "mean_absolute": 3.813194744747752e-06,
+      "min": -1.8996192742315454e-05,
+      "n": 32,
+      "negative": 17,
+      "original_pointwise_bootstrap_95": [
+        -2.975229931931171e-06,
+        5.84602157037513e-07
+      ],
+      "paired_standardized_d": -0.20894823092239467,
+      "paired_t": -1.1819896880172636,
+      "paired_t_df": 31,
+      "positive": 15,
+      "sample_sd": 5.194641268366459e-06,
+      "standard_error": 9.182915166733528e-07,
+      "two_sided_p_exploratory": 0.2461974651100735,
+      "zero": 0
+    },
+    "primary_A11_minus_A10": {
+      "max": 0.022600736251189302,
+      "mean": 0.005551462491667288,
+      "mean_absolute": 0.005990869178939624,
+      "min": -0.0014229102505436408,
+      "n": 32,
+      "negative": 9,
+      "original_pointwise_bootstrap_95": [
+        0.003425583318731722,
+        0.0077399787878231876
+      ],
+      "paired_standardized_d": 0.8765926702533684,
+      "paired_t": 4.958756971796641,
+      "paired_t_df": 31,
+      "positive": 23,
+      "sample_sd": 0.0063330012673534055,
+      "standard_error": 0.001119527035352148,
+      "two_sided_p_exploratory": 2.4171842481710276e-05,
+      "zero": 0
+    }
+  }
+}

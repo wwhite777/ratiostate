@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-labelledby="title desc">
+<title id="title">RatioState recurrent storage precision experiment</title>
+<desc id="desc">An unchanged FP32 model predicts a pixel from teacher-forced input and expanded stored state. The current readout uses raw updated matrix and normalizer. Only after the call are states encoded in one of six formats and retained for the next call. Ten development images precede a locked six-arm comparison on 32 disjoint images, each with 783 predictions scored separately.</desc>
+<rect x="0" y="0" width="1200" height="1080" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="42" y="43" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="33" font-weight="700">RatioState  |  recurrent storage-precision experiment</text>
+<text x="42" y="78" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400">One unchanged model; six ways to retain its state between pixel calls</text>
+<rect x="31" y="111" width="1138" height="531" rx="18" fill="#F4F8FA" stroke="#D8E3E9" stroke-width="1.5"/>
+<text x="49" y="138" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700">A</text>
+<text x="83" y="138" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700">Teacher-forced call and storage boundary</text>
+<text x="1150" y="139" dominant-baseline="middle" text-anchor="end" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">t = 0…782</text>
+<rect x="48" y="209" width="221" height="155" rx="12" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="2"/>
+<rect x="48" y="209" width="7" height="155" rx="0" fill="#2C6383" stroke="#2C6383" stroke-width="0"/>
+<text x="70" y="240" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">INPUT</text>
+<text x="70" y="275" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700">MNIST pixel xₜ</text>
+<text x="70" y="310" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400">position t</text>
+<text x="70" y="343" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">integer pixel 0…255</text>
+<rect x="324" y="172" width="453" height="267" rx="14" fill="#FFFFFF" stroke="#92B5C9" stroke-width="2.5"/>
+<rect x="324" y="172" width="453" height="52" rx="14" fill="#ECF4F8" stroke="#ECF4F8" stroke-width="0"/>
+<text x="347" y="200" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700">UNCHANGED FP32 MODEL CALL</text>
+<text x="347" y="245" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">8 layers  ·  8 heads/layer</text>
+<text x="347" y="271" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400">Per attention head: Ŝ, ẑ = decoded feeds</text>
+<line x1="346" y1="287" x2="755" y2="287" stroke="#D8E6ED" stroke-width="1" stroke-linecap="round"/>
+<text x="347" y="317" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400">Sₜ = Ŝₜ₋₁ + kₜ vₜᵀ</text>
+<text x="347" y="351" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400">zₜ = ẑₜ₋₁ + kₜ</text>
+<text x="347" y="390" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400">yₜ = (qₜᵀ Sₜ) / (qₜᵀ zₜ + ε)</text>
+<text x="347" y="421" dominant-baseline="middle" text-anchor="start" fill="#117F7C" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">Readout uses raw updated Sₜ and zₜ</text>
+<rect x="833" y="209" width="318" height="155" rx="12" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="2"/>
+<rect x="833" y="209" width="7" height="155" rx="0" fill="#117F7C" stroke="#117F7C" stroke-width="0"/>
+<text x="855" y="240" dominant-baseline="middle" text-anchor="start" fill="#117F7C" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">PREDICTION</text>
+<text x="855" y="275" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700">30 FP32 parameters</text>
+<text x="855" y="310" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">10 mixture components</text>
+<text x="855" y="343" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">for next pixel xₜ₊₁</text>
+<line x1="269" y1="286" x2="324" y2="286" stroke="#2C6383" stroke-width="3.2" stroke-linecap="round"/>
+<polygon points="324,286 313,279.95 313,292.05" fill="#2C6383"/>
+<line x1="777" y1="286" x2="833" y2="286" stroke="#117F7C" stroke-width="3.2" stroke-linecap="round"/>
+<polygon points="833,286 822,279.95 822,292.05" fill="#117F7C"/>
+<rect x="324" y="484" width="215" height="79" rx="10" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.8"/>
+<text x="343" y="510" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">RAW RETURN</text>
+<text x="343" y="541" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">Sₜ, zₜ after call t</text>
+<rect x="571" y="484" width="238" height="79" rx="10" fill="#FBF3EC" stroke="#DBAD88" stroke-width="1.8"/>
+<text x="590" y="510" dominant-baseline="middle" text-anchor="start" fill="#B96935" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">STORAGE ENCODER</text>
+<text x="590" y="541" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">select S / z formats</text>
+<rect x="842" y="484" width="309" height="79" rx="10" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.8"/>
+<text x="861" y="510" dominant-baseline="middle" text-anchor="start" fill="#B96935" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">RETAINED CACHE</text>
+<text x="861" y="541" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400">encoded Sₜ, zₜ for next call</text>
+<line x1="431" y1="439" x2="431" y2="484" stroke="#2C6383" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="431,484 426.05,475 435.95,475" fill="#2C6383"/>
+<line x1="539" y1="523" x2="571" y2="523" stroke="#B96935" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="571,523 562,518.05 562,527.95" fill="#B96935"/>
+<line x1="809" y1="523" x2="842" y2="523" stroke="#B96935" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="842,523 833,518.05 833,527.95" fill="#B96935"/>
+<line x1="997" y1="563" x2="997" y2="608" stroke="#B96935" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="997" y1="608" x2="295" y2="608" stroke="#B96935" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="295" y1="608" x2="295" y2="388" stroke="#B96935" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="295" y1="388" x2="324" y2="388" stroke="#B96935" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="324,388 314,382.5 314,393.5" fill="#B96935"/>
+<rect x="429" y="589" width="433" height="32" rx="0" fill="#F4F8FA" stroke="#F4F8FA" stroke-width="0"/>
+<text x="645" y="605" dominant-baseline="middle" text-anchor="middle" fill="#B96935" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">decode / expand to FP32 at call t + 1</text>
+<text x="43" y="681" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700">B</text>
+<text x="80" y="681" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700">Six retained-state formats</text>
+<text x="43" y="715" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">CROSSED MATRIX / NORMALIZER CHOICES</text>
+<text x="796" y="715" dominant-baseline="middle" text-anchor="start" fill="#B96935" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">ADDITIONAL CONTROLS</text>
+<rect x="43" y="731" width="174" height="135" rx="10" fill="#ECF4F8" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="43" y="731" width="174" height="6" rx="0" fill="#2C6383" stroke="#2C6383" stroke-width="0"/>
+<text x="56" y="768" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700">FP32</text>
+<line x1="56" y1="785" x2="204" y2="785" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="814" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">S: FP32</text>
+<text x="56" y="844" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">z: FP32</text>
+<rect x="231" y="731" width="174" height="135" rx="10" fill="#ECF4F8" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="231" y="731" width="174" height="6" rx="0" fill="#2C6383" stroke="#2C6383" stroke-width="0"/>
+<text x="244" y="768" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700">S-BF16</text>
+<line x1="244" y1="785" x2="392" y2="785" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="244" y="814" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">S: BF16</text>
+<text x="244" y="844" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">z: FP32</text>
+<rect x="419" y="731" width="174" height="135" rx="10" fill="#EDF7F4" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="419" y="731" width="174" height="6" rx="0" fill="#117F7C" stroke="#117F7C" stroke-width="0"/>
+<text x="432" y="768" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700">z-BF16</text>
+<line x1="432" y1="785" x2="580" y2="785" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="432" y="814" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">S: FP32</text>
+<text x="432" y="844" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">z: BF16</text>
+<rect x="607" y="731" width="174" height="135" rx="10" fill="#EDF7F4" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="607" y="731" width="174" height="6" rx="0" fill="#117F7C" stroke="#117F7C" stroke-width="0"/>
+<text x="620" y="768" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700">Joint BF16</text>
+<line x1="620" y1="785" x2="768" y2="785" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="620" y="814" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">S: BF16</text>
+<text x="620" y="844" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">z: BF16</text>
+<rect x="795" y="731" width="174" height="135" rx="10" fill="#FBF3EC" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="795" y="731" width="174" height="6" rx="0" fill="#B96935" stroke="#B96935" stroke-width="0"/>
+<text x="808" y="768" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700">FP16</text>
+<line x1="808" y1="785" x2="956" y2="785" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="808" y="814" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">S: FP16</text>
+<text x="808" y="844" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">z: FP16</text>
+<rect x="983" y="731" width="174" height="135" rx="10" fill="#FBF3EC" stroke="#C9D8DF" stroke-width="1.5"/>
+<rect x="983" y="731" width="174" height="6" rx="0" fill="#B96935" stroke="#B96935" stroke-width="0"/>
+<text x="996" y="756" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">Two-word</text>
+<text x="996" y="777" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">BF16</text>
+<line x1="996" y1="796" x2="1144" y2="796" stroke="#C5D3DC" stroke-width="1" stroke-linecap="round"/>
+<text x="996" y="820" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400">S: BF16 pair</text>
+<text x="996" y="845" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400">z: BF16 pair</text>
+<text x="44" y="889" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">The intervention is applied to every layer and head only after each current call.</text>
+<line x1="42" y1="910" x2="1158" y2="910" stroke="#D3DFE6" stroke-width="1.5" stroke-linecap="round"/>
+<text x="43" y="940" dominant-baseline="middle" text-anchor="start" fill="#2C6383" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700">C</text>
+<text x="80" y="940" dominant-baseline="middle" text-anchor="start" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700">Evaluation and saved outputs</text>
+<rect x="43" y="972" width="186" height="56" rx="9" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.5"/>
+<text x="136.0" y="993" dominant-baseline="middle" text-anchor="middle" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">10 development</text>
+<text x="136.0" y="1015" dominant-baseline="middle" text-anchor="middle" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">images</text>
+<rect x="260" y="972" width="200" height="56" rx="9" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.5"/>
+<text x="360.0" y="993" dominant-baseline="middle" text-anchor="middle" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">Lock six-arm</text>
+<text x="360.0" y="1015" dominant-baseline="middle" text-anchor="middle" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">comparison</text>
+<rect x="491" y="972" width="198" height="56" rx="9" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.5"/>
+<text x="590.0" y="993" dominant-baseline="middle" text-anchor="middle" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">32 disjoint</text>
+<text x="590.0" y="1015" dominant-baseline="middle" text-anchor="middle" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">evaluation images</text>
+<rect x="720" y="972" width="197" height="56" rx="9" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.5"/>
+<text x="818.5" y="993" dominant-baseline="middle" text-anchor="middle" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">783 predictions</text>
+<text x="818.5" y="1015" dominant-baseline="middle" text-anchor="middle" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">per image</text>
+<rect x="948" y="972" width="210" height="56" rx="9" fill="#FFFFFF" stroke="#B6C6D1" stroke-width="1.5"/>
+<text x="1053.0" y="993" dominant-baseline="middle" text-anchor="middle" fill="#182F45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700">Separate FP64</text>
+<text x="1053.0" y="1015" dominant-baseline="middle" text-anchor="middle" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">conditional score</text>
+<line x1="233" y1="1000" x2="256" y2="1000" stroke="#2C6383" stroke-width="2" stroke-linecap="round"/>
+<polygon points="256,1000 249,996.15 249,1003.85" fill="#2C6383"/>
+<line x1="464" y1="1000" x2="487" y2="1000" stroke="#2C6383" stroke-width="2" stroke-linecap="round"/>
+<polygon points="487,1000 480,996.15 480,1003.85" fill="#2C6383"/>
+<line x1="693" y1="1000" x2="716" y2="1000" stroke="#2C6383" stroke-width="2" stroke-linecap="round"/>
+<polygon points="716,1000 709,996.15 709,1003.85" fill="#2C6383"/>
+<line x1="921" y1="1000" x2="944" y2="1000" stroke="#2C6383" stroke-width="2" stroke-linecap="round"/>
+<polygon points="944,1000 937,996.15 937,1003.85" fill="#2C6383"/>
+<text x="43" y="1045" dominant-baseline="middle" text-anchor="start" fill="#526579" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400">Each image is the paired unit; the conditional discretized mixture score is defined separately from the graph.</text>
+</svg>

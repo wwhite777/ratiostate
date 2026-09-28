@@ -1,0 +1,206 @@
+{
+  "arm": "A01",
+  "armDefinition": "normalizer kc returned states are RN-even BF16 rounded and expanded to FP32; matrix kv remains FP32",
+  "arrays": {
+    "feed_kc_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "feed_kc_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "feed_kv_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "feed_kv_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    },
+    "native_kc_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "native_kc_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "native_kv_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "native_kv_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    },
+    "prediction_parameters": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "prediction_parameters.f32",
+      "shape": [
+        783,
+        1,
+        30
+      ]
+    },
+    "stored_high_kc": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "stored_high_kc.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "stored_high_kv": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "stored_high_kv.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    }
+  },
+  "contract": "unmodified complete TFJS graph FP32 update/readout/prediction; state-role storage boundary applied only before next token",
+  "input": {
+    "batch": 1,
+    "ordering": "teacher input pixels[t] with graph position i=t from zero state",
+    "pixelsPath": "bundle/assets/pixels/test_09961.json",
+    "pixelsSha256": "d9487e18f94e1d9005d173a7a2cbeb674b336ae3a04da360a1c9218c220ed598",
+    "positions": [
+      0,
+      782
+    ],
+    "startIndex": 0,
+    "steps": 783
+  },
+  "licenseStatus": "unspecified for served weights; no redistribution claim",
+  "model": {
+    "files": [
+      {
+        "bytes": 386110,
+        "path": "model.json",
+        "sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard1of7.bin",
+        "sha256": "81e68fcfae9499fc116d8a85c87215f766f19c7d28d1c3b8ab2ab5e61650e965"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard2of7.bin",
+        "sha256": "b8589e74a115db7d1cea63cf6dcb776c87e64169cbc35133bbcee7912d5409c5"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard3of7.bin",
+        "sha256": "b0356e44d7cc033b8be2a92d1e7cb423850f1761b1741affe3f173db769b9ba7"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard4of7.bin",
+        "sha256": "d3ccdf02016baadeb3712a4fa9aec104c2854bc836dd7cd7861908b0da6c382d"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard5of7.bin",
+        "sha256": "59634fee8082996f4bc6977f30032a09ddf8fec371850b9064191500b5d3adf2"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard6of7.bin",
+        "sha256": "d5616b81909a30e96df27a179dca54c83fc20cd5ac1b4388b9e4ffee09074e3d"
+      },
+      {
+        "bytes": 673276,
+        "path": "group1-shard7of7.bin",
+        "sha256": "bab7e2ca05ab24e858bd115b71db967abdf8ebf0f3514583644ccae3ad632b44"
+      }
+    ],
+    "graphSha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e",
+    "weightBytes": 25839100
+  },
+  "randomSamplingExecuted": false,
+  "roundingSummaries": "rounding_summaries.json",
+  "runtime": {
+    "backend": "cpu",
+    "converter": "2.0.0",
+    "loopElapsedSeconds": 38.093694233,
+    "node": "v20.19.6",
+    "tfMemoryAfter": {
+      "numBytes": 26109436,
+      "numDataBuffers": 558,
+      "numTensors": 558,
+      "reasons": [
+        "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+      ],
+      "unreliable": true
+    },
+    "tfMemoryBefore": {
+      "numBytes": 26109436,
+      "numDataBuffers": 558,
+      "numTensors": 558,
+      "reasons": [
+        "The reported memory is an upper bound. Due to automatic garbage collection, the true allocated memory may be less."
+      ],
+      "unreliable": true
+    },
+    "tfjs": "2.0.0"
+  },
+  "selection": {
+    "heads": [
+      0
+    ],
+    "layers": [
+      0,
+      7
+    ]
+  },
+  "source": "https://linear-transformers.com/ browser demo",
+  "stateRoleContractSha256": "8cf487c0d73952af391c51811829250a5471e3f5a142767699cc20a402441dcf",
+  "storage": {
+    "actualEmulation": "TFJS accepts only FP32 state tensors here; BF16 words are emulated in JavaScript and expanded into FP32 tensors. Logical bytes are not actual allocation or RSS.",
+    "cacheElements": 67584,
+    "logicalCacheBytesBatch1": 266240,
+    "matrixBytesPerElement": 4,
+    "nativeFp32LogicalBytesBatch1": 270336,
+    "normalizerBytesPerElement": 2
+  },
+  "teacherInputs": {
+    "byteOrder": "little-endian",
+    "dtype": "int32",
+    "file": "teacher_inputs.i32",
+    "shape": [
+      783,
+      1
+    ]
+  }
+}

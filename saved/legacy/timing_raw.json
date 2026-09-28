@@ -1,0 +1,287 @@
+{
+  "rounds": [
+    {
+      "loopSeconds": {
+        "bf16_boundary": 11.894301664,
+        "bf16_pair_boundary": 14.574909256,
+        "native": 12.886285162
+      },
+      "order": [
+        "bf16_boundary",
+        "bf16_pair_boundary",
+        "native"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 1
+    },
+    {
+      "loopSeconds": {
+        "bf16_boundary": 12.337532818,
+        "bf16_pair_boundary": 12.48178588,
+        "native": 11.532263624
+      },
+      "order": [
+        "bf16_boundary",
+        "native",
+        "bf16_pair_boundary"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 2
+    },
+    {
+      "loopSeconds": {
+        "bf16_boundary": 12.149159455,
+        "bf16_pair_boundary": 12.622199174,
+        "native": 11.626942581
+      },
+      "order": [
+        "bf16_pair_boundary",
+        "bf16_boundary",
+        "native"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 3
+    },
+    {
+      "loopSeconds": {
+        "bf16_boundary": 11.681541839,
+        "bf16_pair_boundary": 13.110260628,
+        "native": 12.783896143
+      },
+      "order": [
+        "bf16_pair_boundary",
+        "native",
+        "bf16_boundary"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 4
+    },
+    {
+      "loopSeconds": {
+        "bf16_boundary": 11.676098554,
+        "bf16_pair_boundary": 11.806116317,
+        "native": 11.89923401
+      },
+      "order": [
+        "native",
+        "bf16_boundary",
+        "bf16_pair_boundary"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 5
+    },
+    {
+      "loopSeconds": {
+        "bf16_boundary": 12.697430167,
+        "bf16_pair_boundary": 13.320919343,
+        "native": 11.567846429
+      },
+      "order": [
+        "native",
+        "bf16_pair_boundary",
+        "bf16_boundary"
+      ],
+      "retainedAfterLoop": {
+        "bf16_boundary": {
+          "backingBuffers": 2,
+          "bytes": 135168,
+          "viewByteLengths": [
+            4096,
+            131072
+          ]
+        },
+        "bf16_pair_boundary": {
+          "backingBuffers": 4,
+          "bytes": 270336,
+          "viewByteLengths": [
+            4096,
+            4096,
+            131072,
+            131072
+          ]
+        },
+        "native": {
+          "backingBuffers": 2,
+          "bytes": 270336,
+          "viewByteLengths": [
+            8192,
+            262144
+          ]
+        }
+      },
+      "round": 6
+    }
+  ],
+  "warm": {
+    "bf16_boundary": {
+      "calls": 32,
+      "retained": {
+        "backingBuffers": 2,
+        "bytes": 135168,
+        "viewByteLengths": [
+          4096,
+          131072
+        ]
+      }
+    },
+    "bf16_pair_boundary": {
+      "calls": 32,
+      "retained": {
+        "backingBuffers": 4,
+        "bytes": 270336,
+        "viewByteLengths": [
+          4096,
+          4096,
+          131072,
+          131072
+        ]
+      }
+    },
+    "native": {
+      "calls": 32,
+      "retained": {
+        "backingBuffers": 2,
+        "bytes": 270336,
+        "viewByteLengths": [
+          8192,
+          262144
+        ]
+      }
+    }
+  }
+}

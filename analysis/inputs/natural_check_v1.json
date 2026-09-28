@@ -1,0 +1,150 @@
+{
+  "started_utc": "2026-09-23T11:55:54.268580+00:00",
+  "checker_sha256": "569fdc14ac11795b3d62bc00e0a686a41dd0a8f1f1e6c7f6b07bf74ada089ea5",
+  "runs": [
+    {
+      "index": 0,
+      "label": 7,
+      "run_manifest_sha256": "776a878596adc269d8cbf3dcca5d07cc57dbb2fcb79df8e8d3ff21cc39fa5046",
+      "score_manifest_sha256": "fc6cc764de8fbaed0de79c9b073ffebc3ed1aefc61d87f93a0cfb546bb5479a5",
+      "bits_per_predicted_pixel": 0.6021744343011931,
+      "decimal_spots": 8,
+      "decimal_max_difference": 8.881784197001252e-15,
+      "physical_cache_bytes": 135168,
+      "full_state_range": {
+        "maxAbsReturned": 11915.8388671875,
+        "minReturned": -11915.8388671875,
+        "maxReturned": 9752,
+        "nonfiniteCount": 0,
+        "overflowCount": 0,
+        "inspectedCalls": 783
+      },
+      "selected_raw_encoded_feed_words_checked": 1653696,
+      "first_prediction_exact_native": true,
+      "full_token0_encoding_exact_numpy": true,
+      "elapsed_seconds": 46.857715607,
+      "native_bits": 0.6010894304259868,
+      "delta_vs_native": 0.0010850038752062696,
+      "bf16_boundary_bits": 0.6008779768475774,
+      "delta_vs_bf16_boundary": 0.0012964574536157292,
+      "bf16_pair_boundary_bits": 0.6010824044713786,
+      "delta_vs_bf16_pair_boundary": 0.0010920298298144893
+    },
+    {
+      "index": 1,
+      "label": 2,
+      "run_manifest_sha256": "0f4351539e0b28f022816885904ebd3ba98d53ba4a09517ee1117b80b6978653",
+      "score_manifest_sha256": "c0983c4e44f31fb3606b85f27b370cc4b48b2a61baa9aadde26a762beb85b379",
+      "bits_per_predicted_pixel": 0.6651563582139839,
+      "decimal_spots": 8,
+      "decimal_max_difference": 8.43769498715119e-15,
+      "physical_cache_bytes": 135168,
+      "full_state_range": {
+        "maxAbsReturned": 13504.806640625,
+        "minReturned": -13504.806640625,
+        "maxReturned": 13369.0068359375,
+        "nonfiniteCount": 0,
+        "overflowCount": 0,
+        "inspectedCalls": 783
+      },
+      "selected_raw_encoded_feed_words_checked": 1653696,
+      "first_prediction_exact_native": true,
+      "full_token0_encoding_exact_numpy": true,
+      "elapsed_seconds": 44.501992289,
+      "native_bits": 0.6630580850793157,
+      "delta_vs_native": 0.0020982731346681494,
+      "bf16_boundary_bits": 0.7127969789946892,
+      "delta_vs_bf16_boundary": -0.0476406207807053,
+      "bf16_pair_boundary_bits": 0.6630636078861304,
+      "delta_vs_bf16_pair_boundary": 0.0020927503278534987
+    },
+    {
+      "index": 2,
+      "label": 1,
+      "run_manifest_sha256": "6c7611d0949de897be280b1cf4c9adaa3d0e68c2cfb08ed7192e0f799867f987",
+      "score_manifest_sha256": "6d08d86b755540b2c059d0660f39ab9203611fa6e12b161194ca763c23984ce1",
+      "bits_per_predicted_pixel": 0.4611564078458657,
+      "decimal_spots": 7,
+      "decimal_max_difference": 5.551115123125783e-15,
+      "physical_cache_bytes": 135168,
+      "full_state_range": {
+        "maxAbsReturned": 12881.599609375,
+        "minReturned": -12881.599609375,
+        "maxReturned": 11795.7666015625,
+        "nonfiniteCount": 0,
+        "overflowCount": 0,
+        "inspectedCalls": 783
+      },
+      "selected_raw_encoded_feed_words_checked": 1653696,
+      "first_prediction_exact_native": true,
+      "full_token0_encoding_exact_numpy": true,
+      "elapsed_seconds": 47.710119794,
+      "native_bits": 0.4599025340682202,
+      "delta_vs_native": 0.00125387377764552,
+      "bf16_boundary_bits": 0.4612967153298749,
+      "delta_vs_bf16_boundary": -0.00014030748400917226,
+      "bf16_pair_boundary_bits": 0.4599026001102322,
+      "delta_vs_bf16_pair_boundary": 0.0012538077356334942
+    },
+    {
+      "index": 3,
+      "label": 0,
+      "run_manifest_sha256": "271fd232dc111273f19eea97a79bc1fcb373b5e0b56ab3b46d09349d3ab11be2",
+      "score_manifest_sha256": "f34bde18a87a226cf1b376a4b52df79cff84bbe01fbf835db93e5f15553388ca",
+      "bits_per_predicted_pixel": 0.3948789276535625,
+      "decimal_spots": 8,
+      "decimal_max_difference": 8.881784197001252e-16,
+      "physical_cache_bytes": 135168,
+      "full_state_range": {
+        "maxAbsReturned": 14155.0224609375,
+        "minReturned": -13297.64453125,
+        "maxReturned": 14155.0224609375,
+        "nonfiniteCount": 0,
+        "overflowCount": 0,
+        "inspectedCalls": 783
+      },
+      "selected_raw_encoded_feed_words_checked": 1653696,
+      "first_prediction_exact_native": true,
+      "full_token0_encoding_exact_numpy": true,
+      "elapsed_seconds": 42.819705345,
+      "native_bits": 0.4028810132288415,
+      "delta_vs_native": -0.008002085575279039,
+      "bf16_boundary_bits": 0.4401788935897259,
+      "delta_vs_bf16_boundary": -0.04529996593616342,
+      "bf16_pair_boundary_bits": 0.40287112158607985,
+      "delta_vs_bf16_pair_boundary": -0.007992193932517377
+    }
+  ],
+  "scope": "Builder-side independent NumPy rounding and Decimal/aggregation QA; observed development only",
+  "fp16_codec_oracle_20260923_v1": "d0824e4b03719725da375bec0da22824dff081e3180c1ac6d80b304ef267af78",
+  "fp16_handoff_check_20260923_v1": "0f059e264f32d3bd2c1a124409b25ac7456564d1ba1056f0a550ac13d43b56d4",
+  "independent_decimal_helper_sha256": "34fdd0cec31546f32d93f6715f750ea17adf3822af6cf3d6f5af027cf2af35d4",
+  "summary": {
+    "mean_bits": 0.5308415320036513,
+    "vs_native": {
+      "mean_delta": -0.0008912336969397749,
+      "min_delta": -0.008002085575279039,
+      "max_delta": 0.0020982731346681494,
+      "higher_score_images": 3,
+      "lower_score_images": 1
+    },
+    "vs_bf16_boundary": {
+      "mean_delta": -0.02294610918681554,
+      "min_delta": -0.0476406207807053,
+      "max_delta": 0.0012964574536157292,
+      "higher_score_images": 1,
+      "lower_score_images": 3
+    },
+    "vs_bf16_pair_boundary": {
+      "mean_delta": -0.0008884015098039738,
+      "min_delta": -0.007992193932517377,
+      "max_delta": 0.0020927503278534987,
+      "higher_score_images": 3,
+      "lower_score_images": 1
+    }
+  },
+  "status": "pass",
+  "decimal_spots": 31,
+  "decimal_max_difference": 8.881784197001252e-15,
+  "ended_utc": "2026-09-23T11:55:56.054874+00:00"
+}

@@ -1,0 +1,101 @@
+{
+  "rows": [
+    {
+      "arm": "native",
+      "bits": 0.6010894304259868,
+      "image": 0,
+      "label": 7
+    },
+    {
+      "arm": "bf16_boundary",
+      "bits": 0.6008779768475774,
+      "image": 0,
+      "label": 7
+    },
+    {
+      "arm": "fp16_boundary",
+      "bits": 0.6021744343011931,
+      "image": 0,
+      "label": 7
+    },
+    {
+      "arm": "bf16_pair_boundary",
+      "bits": 0.6010824044713786,
+      "image": 0,
+      "label": 7
+    },
+    {
+      "arm": "native",
+      "bits": 0.6630580850793157,
+      "image": 1,
+      "label": 2
+    },
+    {
+      "arm": "bf16_boundary",
+      "bits": 0.7127969789946892,
+      "image": 1,
+      "label": 2
+    },
+    {
+      "arm": "fp16_boundary",
+      "bits": 0.6651563582139838,
+      "image": 1,
+      "label": 2
+    },
+    {
+      "arm": "bf16_pair_boundary",
+      "bits": 0.6630636078861304,
+      "image": 1,
+      "label": 2
+    },
+    {
+      "arm": "native",
+      "bits": 0.4599025340682202,
+      "image": 2,
+      "label": 1
+    },
+    {
+      "arm": "bf16_boundary",
+      "bits": 0.4612967153298749,
+      "image": 2,
+      "label": 1
+    },
+    {
+      "arm": "fp16_boundary",
+      "bits": 0.46115640784586576,
+      "image": 2,
+      "label": 1
+    },
+    {
+      "arm": "bf16_pair_boundary",
+      "bits": 0.4599026001102322,
+      "image": 2,
+      "label": 1
+    },
+    {
+      "arm": "native",
+      "bits": 0.4028810132288415,
+      "image": 3,
+      "label": 0
+    },
+    {
+      "arm": "bf16_boundary",
+      "bits": 0.4401788935897259,
+      "image": 3,
+      "label": 0
+    },
+    {
+      "arm": "fp16_boundary",
+      "bits": 0.3948789276535624,
+      "image": 3,
+      "label": 0
+    },
+    {
+      "arm": "bf16_pair_boundary",
+      "bits": 0.40287112158607985,
+      "image": 3,
+      "label": 0
+    }
+  ],
+  "scope": "previously accepted saved-record scores; comparison only"
+}

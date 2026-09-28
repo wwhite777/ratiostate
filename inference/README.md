@@ -1,0 +1,7 @@
+# Optional six-arm graph inference
+
+This component contains the unchanged original TFJS numerical runners, boundary encoders, scorer and `run_six.py` wrapper. The wrapper replays the six arms for the selected fixed32 test image 6116 only. It is optional: all published saved scores and state analyses can be reproduced without a fresh model run.
+
+Fresh graph inference requires external `model.json` plus seven shards with the exact hashes in `bundle_manifest.json`, an externally supplied Node 20.19.6 runtime with TFJS 2.0.0 and the included npm lock files, and the included selected pixel export `assets/test_06116.json`. No model weights, Node runtime or third-party package files are vendored here. `../protocols/ACQUISITION.md` lists original upstream URLs and identities; access and redistribution terms must be checked separately.
+
+With all external assets supplied, first use `python3 -I -B inference/run_six.py --check-only --model-dir /supplied/model --pixels-json inference/assets/test_06116.json --runtime-dir /supplied/tfjs_runtime --output-root /fresh/replay`; then substitute `--execute` for `--check-only`. The output root must not exist. Historical testing was on Linux/Python 3.10.12/NumPy 1.26.4/Node 20.19.6/TFJS 2.0.0 using an existing runtime; a fresh clean installation is untested. The wrapper enforces one numerical thread, CPU only, six serial model/score children and a 900-second summed child-wall cap. It records exits and partial failures. No fresh inference is part of this GitHub export check.

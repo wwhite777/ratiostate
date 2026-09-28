@@ -1,0 +1,64 @@
+{
+  "files": {
+    "feed_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "d5b5e33a4ddd288c7386de47fa2f384c78bea70916d15c15028668493aa6d75f"
+    },
+    "feed_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "7bb945991b3372161b4c17503ca0b0cbf2492c45e55848abddb1acfc62df3d16"
+    },
+    "native_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "3848cb6fee4e31099f56c25138f8183230a060274b4a9f56d3d8f3c72afc4db3"
+    },
+    "native_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "bd323a5a0ccd17cfd66b711bde22a776d7aa7b596d383e5a0d5f850a8c288145"
+    },
+    "prediction_parameters.f32": {
+      "bytes": 93960,
+      "sha256": "7fc2b4745a6b54ea42c0ca660077dd5887f7ee670ce7b14d3f415f5777c2396d"
+    },
+    "rounding_summaries.json": {
+      "bytes": 486657,
+      "sha256": "112a6fb5e1ff5443fe15038b911cf68efb91b4c41ed609b1d0f0f85ded8d82c6"
+    },
+    "run.json": {
+      "bytes": 1485,
+      "sha256": "34dbbd3f40d3490b38d1f82838e5603bf190915a283756c6cdbc6939c4533cb0"
+    },
+    "run.log": {
+      "bytes": 770,
+      "sha256": "acdb77841298ba935c8ace9efe88b4b3f2d2aaad4bc36ce55e3533ee7826194a"
+    },
+    "run_browser_precision.cjs": {
+      "bytes": 18371,
+      "sha256": "a2a29690624a5d4ab1b1e5e236820ec856119dafc4c95f43ffa78bdc2ca877c5"
+    },
+    "stored_high_kc.f32": {
+      "bytes": 200448,
+      "sha256": "8028cf1ce60f4b4b96d82ac4c65f7e6193d2fdcb7eb56d140b258aab0549f0d3"
+    },
+    "stored_high_kv.f32": {
+      "bytes": 6414336,
+      "sha256": "445cb1ddb48f3977bc50b14ddbf36c23fee2f3137e2896c2b6c5435400b2886f"
+    },
+    "stored_low_kc.f32": {
+      "bytes": 200448,
+      "sha256": "e58dbfbb88214120d0e73c66c94ddfe64f0cd83de5255e32e8224861d7834fd0"
+    },
+    "stored_low_kv.f32": {
+      "bytes": 6414336,
+      "sha256": "1b8b1b84581e1914060eb8eab9293db6a7e4066349fd0f023cfbe566b5d8543c"
+    },
+    "teacher_inputs.i32": {
+      "bytes": 3132,
+      "sha256": "c9b6bc55a5df0ad6f18fcb60f922bc6ef92e0b0e5774d3e4897f5db2ac23a522"
+    },
+    "trace.json": {
+      "bytes": 5731,
+      "sha256": "95000dbc7d20aa4fb6681b7f07ac22a2e37fadbb50dd658141b2c364a7333079"
+    }
+  }
+}

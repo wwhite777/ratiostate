@@ -1,0 +1,56 @@
+{
+  "files": {
+    "feed_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "018b881571e327022b2d2ef1ddb2a69221042289d714b89e3db6a8f7ee805150"
+    },
+    "feed_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "cb2f577ea5ef5975824d473787029ed3008cda8d50a86d5d3817003dd597ce2d"
+    },
+    "native_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "8039e0d1a99414b6f04a28d63145ac91ecbefc0d5ecd14ae7f41c560bf37a672"
+    },
+    "native_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "41454e16e2f8ed294798246c31a9667cea7ac4b4f28473ad3435326bfe5e258c"
+    },
+    "prediction_parameters.f32": {
+      "bytes": 93960,
+      "sha256": "c6a197e2aa282ae4aa78c44e835a33aceecd2622791b55220130982f6d7afd0f"
+    },
+    "rounding_summaries.json": {
+      "bytes": 488932,
+      "sha256": "2a90f2e91ef3dd8195a2dc65b0c8e4f35c4e164d1c5df3a01b1503fb871077c0"
+    },
+    "run.json": {
+      "bytes": 1465,
+      "sha256": "771c4eebd44775ee67988b7c465897c27eed9dde76d64f20349cef068cc075f3"
+    },
+    "run.log": {
+      "bytes": 750,
+      "sha256": "dc976e48eead7c959a74410def7e040afc848ecc208c1346bf4ee96048bd1cb4"
+    },
+    "run_browser_precision.cjs": {
+      "bytes": 18371,
+      "sha256": "a2a29690624a5d4ab1b1e5e236820ec856119dafc4c95f43ffa78bdc2ca877c5"
+    },
+    "stored_high_kc.f32": {
+      "bytes": 200448,
+      "sha256": "018b881571e327022b2d2ef1ddb2a69221042289d714b89e3db6a8f7ee805150"
+    },
+    "stored_high_kv.f32": {
+      "bytes": 6414336,
+      "sha256": "cb2f577ea5ef5975824d473787029ed3008cda8d50a86d5d3817003dd597ce2d"
+    },
+    "teacher_inputs.i32": {
+      "bytes": 3132,
+      "sha256": "0c2d38695b6ce4e3e899688656371f7f4d76f95f99d14ab6ba52541b694463c6"
+    },
+    "trace.json": {
+      "bytes": 5185,
+      "sha256": "ac982e10ca1d4ad96d087f274a599223f7ffbb9816c0cae7d7df4597e1642c10"
+    }
+  }
+}

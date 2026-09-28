@@ -1,0 +1,201 @@
+{
+  "arm": "fp16_boundary",
+  "armDefinition": "returned states rounded RN-even to IEEE binary16 after current readout; Uint16 words retained and decoded to FP32 tensors before next call",
+  "arrays": {
+    "feed_kc_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "feed_kc_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "feed_kv_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "feed_kv_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    },
+    "native_kc_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "native_kc_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "native_kv_state": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "native_kv_state.f32",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    },
+    "prediction_parameters": {
+      "byteOrder": "little-endian",
+      "dtype": "float32",
+      "file": "prediction_parameters.f32",
+      "shape": [
+        783,
+        1,
+        30
+      ]
+    },
+    "stored_fp16_kc": {
+      "byteOrder": "little-endian",
+      "dtype": "uint16",
+      "file": "stored_fp16_kc.u16",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32
+      ]
+    },
+    "stored_fp16_kv": {
+      "byteOrder": "little-endian",
+      "dtype": "uint16",
+      "file": "stored_fp16_kv.u16",
+      "shape": [
+        783,
+        1,
+        2,
+        1,
+        32,
+        32
+      ]
+    }
+  },
+  "contract": "IEEE binary16 Uint16 retained boundary storage; unmodified full graph FP32 update/readout/prediction",
+  "input": {
+    "batch": 1,
+    "ordering": "teacher input pixels[t] with graph position i=t from zero state",
+    "pixelsPath": "bundle/assets/pixels/test_01722.json",
+    "pixelsSha256": "21ceb97ea1ee82a50af81115259890e13119dd2bc12f14b3583c6dbe8faa9682",
+    "positions": [
+      0,
+      782
+    ],
+    "startIndex": 0,
+    "steps": 783
+  },
+  "model": {
+    "files": [
+      {
+        "bytes": 386110,
+        "path": "model.json",
+        "sha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard1of7.bin",
+        "sha256": "81e68fcfae9499fc116d8a85c87215f766f19c7d28d1c3b8ab2ab5e61650e965"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard2of7.bin",
+        "sha256": "b8589e74a115db7d1cea63cf6dcb776c87e64169cbc35133bbcee7912d5409c5"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard3of7.bin",
+        "sha256": "b0356e44d7cc033b8be2a92d1e7cb423850f1761b1741affe3f173db769b9ba7"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard4of7.bin",
+        "sha256": "d3ccdf02016baadeb3712a4fa9aec104c2854bc836dd7cd7861908b0da6c382d"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard5of7.bin",
+        "sha256": "59634fee8082996f4bc6977f30032a09ddf8fec371850b9064191500b5d3adf2"
+      },
+      {
+        "bytes": 4194304,
+        "path": "group1-shard6of7.bin",
+        "sha256": "d5616b81909a30e96df27a179dca54c83fc20cd5ac1b4388b9e4ffee09074e3d"
+      },
+      {
+        "bytes": 673276,
+        "path": "group1-shard7of7.bin",
+        "sha256": "bab7e2ca05ab24e858bd115b71db967abdf8ebf0f3514583644ccae3ad632b44"
+      }
+    ],
+    "graphSha256": "304f1905c945d25b4848873feaa3ea04c1fa6c84fa9230b214c24d2b85b1f83e",
+    "weightBytes": 25839100
+  },
+  "nativeReference": {
+    "manifestSha256": "d5abb8d93a1c76c53f56101dab7a62c558783c5f20bc3ec8b05db4569f22f95d",
+    "predictionSha256": "a082f88affa31cda763b160457c52677ccca6de4588ed9e61e0b4b5f981b5140"
+  },
+  "randomSamplingExecuted": false,
+  "range": {
+    "inspectedCalls": 783,
+    "maxAbsReturned": 10527.3203125,
+    "maxReturned": 8818.1279296875,
+    "minReturned": -10527.3203125,
+    "nonfiniteCount": 0,
+    "overflowCount": 0
+  },
+  "runtime": {
+    "backend": "cpu",
+    "node": "v20.19.6",
+    "tfjs": "2.0.0"
+  },
+  "selection": {
+    "heads": [
+      0
+    ],
+    "layers": [
+      0,
+      7
+    ]
+  },
+  "storage": {
+    "actualFormat": "Uint16Array IEEE binary16",
+    "backingBuffers": 2,
+    "cacheElements": 67584,
+    "caveat": "FP32 transient tensors are required; retained bytes do not imply peak-memory or RSS savings",
+    "physicalRetainedPayloadBytesBatch1": 135168
+  },
+  "teacherInputs": {
+    "byteOrder": "little-endian",
+    "dtype": "int32",
+    "file": "teacher_inputs.i32",
+    "shape": [
+      783,
+      1
+    ]
+  },
+  "tokenZeroFullStateFiles": [
+    "token0_native_kc_state.f32",
+    "token0_native_kv_state.f32",
+    "token0_stored_kc.u16",
+    "token0_stored_kv.u16",
+    "token0_feed_kc_state.f32",
+    "token0_feed_kv_state.f32"
+  ]
+}

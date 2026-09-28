@@ -1,0 +1,72 @@
+{
+  "files": {
+    "feed_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "6defb629c3e5c56768bdae3ab113a79f765b27e8b31bb735c3a276b44f7c772a"
+    },
+    "feed_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "9e3c092afe1f9b458790ff67affd1c795de703394d18b254116ba5d3b42e711c"
+    },
+    "native_kc_state.f32": {
+      "bytes": 200448,
+      "sha256": "27dac9a626d2febc7b3f94dccd1624dab81a1a80f3d6b3fbbceaeda8d0727d85"
+    },
+    "native_kv_state.f32": {
+      "bytes": 6414336,
+      "sha256": "9e3c092afe1f9b458790ff67affd1c795de703394d18b254116ba5d3b42e711c"
+    },
+    "prediction_parameters.f32": {
+      "bytes": 93960,
+      "sha256": "bffac3fc9c595307476cd30a42e6a452a9b8808e76e293eed9d31bbaae81bfeb"
+    },
+    "rounding_summaries.json": {
+      "bytes": 451420,
+      "sha256": "fb79344080c9203eb1d08a002fc217b536ff944dbc675ff440183bbb19f7819f"
+    },
+    "run.json": {
+      "bytes": 1460,
+      "sha256": "65349afaa8aa610a06fe696b8459b3a303d4be24bbc88362901cb6c3d11cf32a"
+    },
+    "run.log": {
+      "bytes": 745,
+      "sha256": "c437e51493eb01b5699f6fa1f10f997a25d2e8e0275f626b99ecaabc65aa391e"
+    },
+    "run_state_role_boundary_v1.cjs": {
+      "bytes": 18994,
+      "sha256": "9313c0cc201247fcf240af66cc384dce1b18e8b87f2fe341efbeb55bc1d3cabf"
+    },
+    "stored_high_kc.f32": {
+      "bytes": 200448,
+      "sha256": "6defb629c3e5c56768bdae3ab113a79f765b27e8b31bb735c3a276b44f7c772a"
+    },
+    "stored_high_kv.f32": {
+      "bytes": 6414336,
+      "sha256": "9e3c092afe1f9b458790ff67affd1c795de703394d18b254116ba5d3b42e711c"
+    },
+    "teacher_inputs.i32": {
+      "bytes": 3132,
+      "sha256": "c6c3a47d4b9de8c8f21dac149ad94c4b1a6b4e02d0dbf8c4824745f0fd88ea5f"
+    },
+    "token0_feed_kc_state.f32": {
+      "bytes": 8192,
+      "sha256": "b1fb21b3d66713d6d264f71dd0304d22161ffc23e2a66230fdb6f970620d0843"
+    },
+    "token0_feed_kv_state.f32": {
+      "bytes": 262144,
+      "sha256": "43d6111627d506561ed07a72ba84fc16a00ea9260ab35c65e5c0e264075000f3"
+    },
+    "token0_native_kc_state.f32": {
+      "bytes": 8192,
+      "sha256": "95aacefa80b0bd87ff537457086a480cab78027a2da6f6438848d50f450dc5a4"
+    },
+    "token0_native_kv_state.f32": {
+      "bytes": 262144,
+      "sha256": "43d6111627d506561ed07a72ba84fc16a00ea9260ab35c65e5c0e264075000f3"
+    },
+    "trace.json": {
+      "bytes": 5321,
+      "sha256": "9d318d639e08b47750beb4b27ca3cd5d32fa322abf6c8b7c5822950e2e871d01"
+    }
+  }
+}

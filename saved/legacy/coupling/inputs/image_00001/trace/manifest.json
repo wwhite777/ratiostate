@@ -1,0 +1,20 @@
+{
+  "files": {
+    "k.f32": {
+      "bytes": 200448,
+      "sha256": "b5765f864fd9f5db0127b30d4fe2e674cd3cc9aca2168ad1babdb2bb86640710"
+    },
+    "q.f32": {
+      "bytes": 200448,
+      "sha256": "e899422d41af90f8327dcc694b649d88bd48a2854323789521bc2b1cf97c8185"
+    },
+    "trace.json": {
+      "bytes": 909,
+      "sha256": "2a058f691d74d252ef9538c3aaef7d6a893be2c804a9fc2c7a4c04742199d638"
+    },
+    "v.f32": {
+      "bytes": 200448,
+      "sha256": "c4af7a02e62e485e631ffbd6fbc30a22aec7103dbff1a19f4b217150ccebcd28"
+    }
+  }
+}
